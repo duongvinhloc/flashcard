@@ -433,43 +433,45 @@
   }
 
 function render(){
-  const item = currentItem();
-  if(!item) return;
+    const item = currentItem();
+    if(!item) return;
 
-  el.word.textContent = item.word || "";
-  el.reading.textContent = item.reading || "";
-  el.meaning.textContent = item.meaning || "";
+    el.word.textContent = item.word || "";
+    el.reading.textContent = item.reading || "";
+    el.meaning.textContent = item.meaning || "";
 
-  // Ví dụ
-  if(item.example){
-    el.example.textContent = "例：" + item.example;
-    el.example.style.display = "block";
-  }else{
-    el.example.style.display = "none";
-  }
+    // Nhật dùng 例:, Trung dùng 例句:
+    const exampleLabel = state.lang === "cn" ? "例句：" : "例：";
 
-  // Furigana / Pinyin
-  if(item.example_reading){
-    el.exampleReading.textContent = item.example_reading;
-    el.exampleReading.style.display = "block";
-  }else{
-    el.exampleReading.style.display = "none";
-  }
+    if(item.example){
+        el.example.textContent = exampleLabel + item.example;
+        el.example.style.display = "";
+    }else{
+        el.example.style.display = "none";
+    }
 
-  // Nghĩa tiếng Việt
-  if(item.example_vi){
-    el.exampleVi.textContent = item.example_vi;
-    el.exampleVi.style.display = "block";
-  }else{
-    el.exampleVi.style.display = "none";
-  }
+    if(item.example_reading){
+        el.exampleReading.textContent = item.example_reading;
+        el.exampleReading.style.display = "";
+    }else{
+        el.exampleReading.style.display = "none";
+    }
 
-  el.counter.textContent =
-      (state.pos % state.order.length + 1) + " / " + state.order.length;
+    if(item.example_vi){
+        el.exampleVi.textContent = item.example_vi;
+        el.exampleVi.style.display = "";
+    }else{
+        el.exampleVi.style.display = "none";
+    }
 
-  if(state.autoSpeak){
-    speak(item.word);
-  }
+    el.counter.textContent =
+        (state.pos % state.order.length + 1) +
+        " / " +
+        state.order.length;
+
+    if(state.autoSpeak){
+        speak(item.example || item.word);
+    }
 }
 
   function goNext(){
@@ -535,10 +537,17 @@ function render(){
     resetTimer();
   });
 
-  el.speakBtn.addEventListener("click", () => {
+el.speakBtn.addEventListener("click", () => {
     const item = currentItem();
-    if(item) speak(item.example || item.word);
-  });
+    if(!item) return;
+
+    // Nhật đọc từ, Trung đọc câu ví dụ nếu có
+    if(state.lang === "cn"){
+        speak(item.example || item.word);
+    }else{
+        speak(item.word);
+    }
+});
 
   el.intervalSelect.addEventListener("change", (e) => {
     state.intervalSec = parseInt(e.target.value, 10);
