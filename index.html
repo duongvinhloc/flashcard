@@ -1,1 +1,539 @@
 
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Học từ vựng mỗi ngày · 日本語 N1 / 中文</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Serif+JP:wght@500;700&family=Noto+Sans+SC:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #faf8f3;
+    --surface: #ffffff;
+    --surface-2: #f3f1ea;
+    --border-soft: #e7e2d6;
+    --text: #201d1a;
+    --text-dim: #6b6558;
+    --text-faint: #a39c8c;
+
+    --jp-accent: #c8433a;
+    --jp-accent-soft: rgba(200,67,58,.09);
+    --cn-accent: #2f8f79;
+    --cn-accent-soft: rgba(47,143,121,.09);
+
+    --accent: var(--jp-accent);
+    --accent-soft: var(--jp-accent-soft);
+  }
+
+  *{ box-sizing: border-box; }
+
+  body{
+    margin:0;
+    min-height:100vh;
+    background:
+      radial-gradient(circle at 12% -10%, rgba(200,67,58,.06), transparent 42%),
+      radial-gradient(circle at 88% 0%, rgba(47,143,121,.06), transparent 45%),
+      var(--bg);
+    color: var(--text);
+    font-family:'IBM Plex Sans', sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding: 32px 16px 60px;
+  }
+
+  .eyebrow{
+    font-size:11px;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    color: var(--text-faint);
+    margin-bottom:6px;
+  }
+
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size: clamp(22px, 4vw, 30px);
+    margin: 0 0 22px;
+    text-align:center;
+    letter-spacing:-.01em;
+  }
+
+  /* ---------- Tabs ---------- */
+  .tabs{
+    display:flex;
+    gap:4px;
+    background: var(--surface);
+    border:1px solid var(--border-soft);
+    padding:4px;
+    border-radius:999px;
+    margin-bottom:28px;
+  }
+  .tab{
+    border:none;
+    background:transparent;
+    color: var(--text-dim);
+    font-family:'IBM Plex Sans', sans-serif;
+    font-weight:500;
+    font-size:14px;
+    padding:9px 20px;
+    border-radius:999px;
+    cursor:pointer;
+    transition: color .2s ease, background .2s ease;
+  }
+  .tab.active{
+    background: var(--accent);
+    color:#fff;
+  }
+
+  /* ---------- Card ---------- */
+  .stage{ width:100%; max-width: 460px; }
+
+  .card{
+    background: var(--surface);
+    border:1px solid var(--border-soft);
+    border-radius:20px;
+    padding: 34px 28px 26px;
+    position:relative;
+    min-height: 360px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    box-shadow: 0 24px 48px -28px rgba(32,29,26,.18), 0 2px 6px rgba(32,29,26,.05);
+  }
+
+  .counter{
+    position:absolute;
+    top:16px; right:20px;
+    font-size:11px;
+    color: var(--text-faint);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* signature frame around the headword — hanko stamp (JP) / jade medallion (CN) */
+  .word-frame{
+    width: 128px;
+    height: 128px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin: 6px 0 18px;
+    border: 3px solid var(--accent);
+    background: var(--accent-soft);
+    color: var(--accent);
+    transition: border-color .25s ease, color .25s ease, background .25s ease, border-radius .25s ease;
+  }
+  body[data-lang="jp"] .word-frame{ border-radius: 10px; }
+  body[data-lang="cn"] .word-frame{ border-radius: 999px; }
+
+  .word{
+    font-family:'Noto Serif JP','Noto Sans SC', serif;
+    font-size: 44px;
+    font-weight:700;
+    line-height:1;
+  }
+
+  .reading{
+    font-size:15px;
+    color: var(--text-dim);
+    margin-bottom: 10px;
+    font-family:'Noto Serif JP','Noto Sans SC', sans-serif;
+  }
+
+  .meaning{
+    display:inline-block;
+    background: var(--surface-2);
+    color: var(--text);
+    font-weight:600;
+    font-size:15px;
+    padding: 6px 16px;
+    border-radius: 999px;
+    margin-bottom: 20px;
+  }
+
+  .example-block{
+    width:100%;
+    border-top: 1px dashed var(--border-soft);
+    padding-top: 16px;
+    margin-top:auto;
+  }
+
+  .example{
+    font-family:'Noto Serif JP','Noto Sans SC', serif;
+    font-size: 17px;
+    line-height:1.6;
+    margin-bottom:4px;
+  }
+
+  .example-reading{
+    font-size:12.5px;
+    color: var(--accent);
+    margin-bottom:6px;
+  }
+
+  .example-vi{
+    font-size:13px;
+    font-style:italic;
+    color: var(--text-dim);
+  }
+
+  /* ---------- Controls ---------- */
+  .controls{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    margin-top:22px;
+    flex-wrap:wrap;
+  }
+
+  button.ctrl{
+    border:1px solid var(--border-soft);
+    background: var(--surface);
+    color: var(--text);
+    width:42px; height:42px;
+    border-radius:12px;
+    cursor:pointer;
+    display:flex; align-items:center; justify-content:center;
+    font-size:16px;
+    transition: background .15s ease, border-color .15s ease, transform .1s ease;
+  }
+  button.ctrl:hover{ border-color: var(--accent); }
+  button.ctrl:active{ transform: scale(.94); }
+  button.ctrl.primary{
+    width:auto;
+    padding: 0 18px;
+    background: var(--accent);
+    border-color: var(--accent);
+    color:#fff;
+    font-weight:600;
+    font-size:13px;
+    gap:6px;
+  }
+  button.ctrl.speak{
+    color: var(--accent);
+    border-color: var(--accent);
+    background: var(--accent-soft);
+  }
+
+  select#intervalSelect{
+    background: var(--surface);
+    border:1px solid var(--border-soft);
+    color: var(--text);
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size:12.5px;
+    padding: 10px 10px;
+    border-radius:12px;
+    cursor:pointer;
+  }
+
+  .meta-row{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:14px;
+    margin-top:14px;
+    font-size:12px;
+    color: var(--text-faint);
+  }
+  .meta-row label{ display:flex; align-items:center; gap:5px; cursor:pointer; }
+
+  .status{
+    margin-top: 18px;
+    font-size:12px;
+    color: var(--text-faint);
+    text-align:center;
+    min-height: 16px;
+  }
+
+  footer{
+    margin-top: 40px;
+    font-size:11.5px;
+    color: var(--text-faint);
+    text-align:center;
+    max-width: 460px;
+    line-height:1.6;
+  }
+  footer a{ color: var(--text-dim); }
+
+  @media (max-width: 480px){
+    .card{ padding: 28px 18px 20px; min-height: 340px; }
+    .word{ font-size: 38px; }
+  }
+</style>
+</head>
+<body data-lang="jp">
+
+  <div class="eyebrow">Ôn từ mỗi ngày</div>
+  <h1>Flashcard tự động: N1 &amp; 中文日常</h1>
+
+  <div class="tabs">
+    <button class="tab active" data-lang="jp" data-src="data/vocab_n1.csv" data-tts="ja-JP">日本語 N1</button>
+    <button class="tab" data-lang="cn" data-src="data/vocab_chinese.csv" data-tts="zh-TW">中文 日常</button>
+  </div>
+
+  <div class="stage">
+    <div class="card">
+      <div class="counter" id="counter">–/–</div>
+
+      <div class="word-frame">
+        <div class="word" id="word">…</div>
+      </div>
+      <div class="reading" id="reading"></div>
+      <div class="meaning" id="meaning"></div>
+
+      <div class="example-block">
+        <div class="example" id="example"></div>
+        <div class="example-reading" id="exampleReading"></div>
+        <div class="example-vi" id="exampleVi"></div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button class="ctrl" id="prevBtn" title="Từ trước">‹</button>
+      <button class="ctrl primary" id="playBtn">⏸ Tự động</button>
+      <button class="ctrl" id="nextBtn" title="Từ tiếp theo">›</button>
+      <button class="ctrl speak" id="speakBtn" title="Đọc to">🔊</button>
+      <select id="intervalSelect">
+        <option value="15">15 giây</option>
+        <option value="60">1 phút</option>
+        <option value="300" selected>5 phút</option>
+        <option value="600">10 phút</option>
+        <option value="1800">30 phút</option>
+      </select>
+    </div>
+
+    <div class="meta-row">
+      <label><input type="checkbox" id="shuffleChk" checked> Xáo trộn</label>
+      <label><input type="checkbox" id="autoSpeakChk"> Tự đọc to khi đổi từ</label>
+    </div>
+
+    <div class="status" id="status">Đang tải dữ liệu…</div>
+  </div>
+
+  <footer>
+    Giọng đọc ưu tiên dùng dịch vụ đọc văn bản của Google Dịch (không chính thức);
+    nếu không tải được (chặn mạng / CORS), trình duyệt sẽ tự chuyển sang giọng đọc
+    có sẵn của hệ thống (Web Speech API). Dữ liệu lấy từ file
+    <code>data/vocab_n1.csv</code> và <code>data/vocab_chinese.csv</code> — chỉnh sửa
+    hai file này để thêm/bớt từ, không cần sửa code.
+  </footer>
+
+<script>
+(function(){
+  "use strict";
+
+  // ---------- CSV parser (ho tro dau ngoac kep, dau phay trong chuoi) ----------
+  function parseCSV(text){
+    text = text.replace(/^\uFEFF/, ""); // bo BOM neu co
+    const rows = [];
+    let row = [], field = "", inQuotes = false;
+    for(let i=0; i<text.length; i++){
+      const c = text[i];
+      if(inQuotes){
+        if(c === '"'){
+          if(text[i+1] === '"'){ field += '"'; i++; }
+          else { inQuotes = false; }
+        } else {
+          field += c;
+        }
+      } else {
+        if(c === '"'){ inQuotes = true; }
+        else if(c === ','){ row.push(field); field = ""; }
+        else if(c === '\n'){ row.push(field); field = ""; rows.push(row); row = []; }
+        else if(c === '\r'){ /* ignore */ }
+        else { field += c; }
+      }
+    }
+    if(field.length || row.length){ row.push(field); rows.push(row); }
+
+    const header = rows.shift().map(h => h.trim());
+    return rows
+      .filter(r => r.length > 1 || (r[0] && r[0].trim() !== ""))
+      .map(r => {
+        const obj = {};
+        header.forEach((h, idx) => { obj[h] = (r[idx] || "").trim(); });
+        return obj;
+      });
+  }
+
+  // ---------- State ----------
+  const state = {
+    lang: "jp",
+    ttsCode: "ja-JP",
+    vocab: [],
+    order: [],
+    pos: 0,
+    shuffle: true,
+    autoSpeak: false,
+    playing: true,
+    timer: null,
+    intervalSec: 300,
+  };
+
+  const el = {
+    tabs: document.querySelectorAll(".tab"),
+    word: document.getElementById("word"),
+    reading: document.getElementById("reading"),
+    meaning: document.getElementById("meaning"),
+    example: document.getElementById("example"),
+    exampleReading: document.getElementById("exampleReading"),
+    exampleVi: document.getElementById("exampleVi"),
+    counter: document.getElementById("counter"),
+    status: document.getElementById("status"),
+    prevBtn: document.getElementById("prevBtn"),
+    nextBtn: document.getElementById("nextBtn"),
+    playBtn: document.getElementById("playBtn"),
+    speakBtn: document.getElementById("speakBtn"),
+    intervalSelect: document.getElementById("intervalSelect"),
+    shuffleChk: document.getElementById("shuffleChk"),
+    autoSpeakChk: document.getElementById("autoSpeakChk"),
+  };
+
+  function shuffleArray(arr){
+    for(let i = arr.length - 1; i > 0; i--){
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  function buildOrder(){
+    state.order = state.vocab.map((_, i) => i);
+    if(state.shuffle) shuffleArray(state.order);
+    state.pos = 0;
+  }
+
+  async function loadLang(src, lang, ttsCode){
+    el.status.textContent = "Đang tải dữ liệu…";
+    document.body.dataset.lang = lang;
+    state.lang = lang;
+    state.ttsCode = ttsCode;
+    try{
+      const res = await fetch(src, {cache:"no-store"});
+      if(!res.ok) throw new Error("HTTP " + res.status);
+      const text = await res.text();
+      state.vocab = parseCSV(text).filter(r => r.word);
+      if(!state.vocab.length) throw new Error("File rỗng");
+      buildOrder();
+      render();
+      el.status.textContent = "";
+    } catch(err){
+      el.status.textContent = "Không tải được " + src + " (" + err.message + "). " +
+        "Hãy chắc chắn bạn đang mở trang qua GitHub Pages hoặc một local server, " +
+        "không phải mở trực tiếp file (file://).";
+    }
+  }
+
+  function currentItem(){
+    if(!state.vocab.length) return null;
+    return state.vocab[state.order[state.pos % state.order.length]];
+  }
+
+  function render(){
+    const item = currentItem();
+    if(!item) return;
+    el.word.textContent = item.word || "";
+    el.reading.textContent = item.reading || "";
+    el.meaning.textContent = item.meaning || "";
+    el.example.textContent = item.example ? ("例：" + item.example) : "";
+    el.exampleReading.textContent = item.example_reading || "";
+    el.exampleReading.style.display = item.example_reading ? "block" : "none";
+    el.exampleVi.textContent = item.example_vi || "";
+    el.counter.textContent = (state.pos % state.order.length + 1) + " / " + state.order.length;
+
+    if(state.autoSpeak) speak(item.word);
+  }
+
+  function goNext(){
+    state.pos++;
+    if(state.pos % state.order.length === 0 && state.shuffle) shuffleArray(state.order);
+    render();
+  }
+  function goPrev(){
+    state.pos = (state.pos - 1 + state.order.length) % state.order.length;
+    render();
+  }
+
+  function resetTimer(){
+    if(state.timer) clearInterval(state.timer);
+    if(state.playing){
+      state.timer = setInterval(goNext, state.intervalSec * 1000);
+    }
+  }
+
+  // ---------- Text-to-speech ----------
+  function speakWithGoogle(text, ttsCode){
+    return new Promise((resolve, reject) => {
+      const audio = new Audio(
+        "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=" +
+        encodeURIComponent(ttsCode) + "&q=" + encodeURIComponent(text)
+      );
+      audio.onended = resolve;
+      audio.onerror = reject;
+      audio.play().catch(reject);
+    });
+  }
+
+  function speakWithBrowser(text, ttsCode){
+    if(!("speechSynthesis" in window)) return;
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = ttsCode;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  }
+
+  function speak(text){
+    if(!text) return;
+    speakWithGoogle(text, state.ttsCode).catch(() => {
+      speakWithBrowser(text, state.ttsCode);
+    });
+  }
+
+  // ---------- Events ----------
+  el.tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+      el.tabs.forEach(t => t.classList.remove("active"));
+      tab.classList.add("active");
+      loadLang(tab.dataset.src, tab.dataset.lang, tab.dataset.tts);
+    });
+  });
+
+  el.nextBtn.addEventListener("click", goNext);
+  el.prevBtn.addEventListener("click", goPrev);
+
+  el.playBtn.addEventListener("click", () => {
+    state.playing = !state.playing;
+    el.playBtn.textContent = state.playing ? "⏸ Tự động" : "▶ Đang dừng";
+    resetTimer();
+  });
+
+  el.speakBtn.addEventListener("click", () => {
+    const item = currentItem();
+    if(item) speak(item.example || item.word);
+  });
+
+  el.intervalSelect.addEventListener("change", (e) => {
+    state.intervalSec = parseInt(e.target.value, 10);
+    resetTimer();
+  });
+
+  el.shuffleChk.addEventListener("change", (e) => {
+    state.shuffle = e.target.checked;
+    buildOrder();
+    render();
+  });
+
+  el.autoSpeakChk.addEventListener("change", (e) => {
+    state.autoSpeak = e.target.checked;
+  });
+
+  // ---------- Init ----------
+  loadLang("data/vocab_n1.csv", "jp", "ja-JP");
+  resetTimer();
+})();
+</script>
+</body>
+</html>
