@@ -432,20 +432,45 @@
     return state.vocab[state.order[state.pos % state.order.length]];
   }
 
-  function render(){
-    const item = currentItem();
-    if(!item) return;
-    el.word.textContent = item.word || "";
-    el.reading.textContent = item.reading || "";
-    el.meaning.textContent = item.meaning || "";
-    el.example.textContent = item.example ? ("例：" + item.example) : "";
-    el.exampleReading.textContent = item.example_reading || "";
-    el.exampleReading.style.display = item.example_reading ? "block" : "none";
-    el.exampleVi.textContent = item.example_vi || "";
-    el.counter.textContent = (state.pos % state.order.length + 1) + " / " + state.order.length;
+function render(){
+  const item = currentItem();
+  if(!item) return;
 
-    if(state.autoSpeak) speak(item.word);
+  el.word.textContent = item.word || "";
+  el.reading.textContent = item.reading || "";
+  el.meaning.textContent = item.meaning || "";
+
+  // Ví dụ
+  if(item.example){
+    el.example.textContent = "例：" + item.example;
+    el.example.style.display = "block";
+  }else{
+    el.example.style.display = "none";
   }
+
+  // Furigana / Pinyin
+  if(item.example_reading){
+    el.exampleReading.textContent = item.example_reading;
+    el.exampleReading.style.display = "block";
+  }else{
+    el.exampleReading.style.display = "none";
+  }
+
+  // Nghĩa tiếng Việt
+  if(item.example_vi){
+    el.exampleVi.textContent = item.example_vi;
+    el.exampleVi.style.display = "block";
+  }else{
+    el.exampleVi.style.display = "none";
+  }
+
+  el.counter.textContent =
+      (state.pos % state.order.length + 1) + " / " + state.order.length;
+
+  if(state.autoSpeak){
+    speak(item.word);
+  }
+}
 
   function goNext(){
     state.pos++;
