@@ -546,16 +546,8 @@ function render(){
 
 el.speakBtn.addEventListener("click", () => {
     const item = currentItem();
-    if(!item) return;
-
-    // Nhật đọc từ, Trung đọc câu ví dụ nếu có
-    if(state.lang === "cn"){
-        speak(item.example || item.word);
-    }else{
-        speak(item.word);
-    }
+    if(item) speak(item.example || item.word);
 });
-
   el.intervalSelect.addEventListener("change", (e) => {
     state.intervalSec = parseInt(e.target.value, 10);
     resetTimer();
