@@ -414,7 +414,6 @@
     try{
       const res = await fetch(src, {cache:"no-store"});
       if(!res.ok) throw new Error("HTTP " + res.status);
-      const text = await res.text();
 const text = await res.text();
 
 console.log(text);
