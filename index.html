@@ -415,8 +415,15 @@
       const res = await fetch(src, {cache:"no-store"});
       if(!res.ok) throw new Error("HTTP " + res.status);
       const text = await res.text();
-      state.vocab = parseCSV(text).filter(r => r.word);
-      if(!state.vocab.length) throw new Error("File rỗng");
+const text = await res.text();
+
+console.log(text);
+
+const data = parseCSV(text);
+
+console.log(data);
+
+state.vocab = data.filter(r => r.word);
       buildOrder();
       render();
       el.status.textContent = "";
