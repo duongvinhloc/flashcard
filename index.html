@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -271,6 +270,7 @@
 
   <div class="tabs">
     <button class="tab active" data-lang="jp" data-src="data/vocab_n1.csv" data-tts="ja-JP">日本語 N1</button>
+    <button class="tab" data-lang="jp" data-src="data/vocab_business_jp.csv" data-tts="ja-JP">ビジネス日本語</button>
     <button class="tab" data-lang="cn" data-src="data/vocab_chinese.csv" data-tts="zh-TW">中文 日常</button>
   </div>
 
@@ -359,6 +359,25 @@
       });
   }
 
+  // Cot bat buoc: co o CA HAI file (vocab_n1.csv 5 cot & vocab_chinese.csv 6 cot).
+  // Cot tuy chon: chi vocab_chinese.csv (va cac file 6-cot khac) moi co.
+  const REQUIRED_COLUMNS = ["word", "reading", "meaning", "example", "example_vi"];
+  const OPTIONAL_COLUMNS = ["example_reading"];
+
+  // Dam bao moi dong deu co du field, du file goc la 5 cot hay 6 cot,
+  // de phan con lai cua app khong can quan tam dang du lieu tu dau ra.
+  function normalizeRow(row){
+    const clean = {};
+    REQUIRED_COLUMNS.forEach(col => { clean[col] = row[col] || ""; });
+    OPTIONAL_COLUMNS.forEach(col => { clean[col] = row[col] || ""; }); // "" neu file khong co cot nay
+    return clean;
+  }
+
+  function validateHeader(fieldNames){
+    const missing = REQUIRED_COLUMNS.filter(col => !fieldNames.includes(col));
+    return missing; // mang rong = hop le
+  }
+
   // ---------- State ----------
   const state = {
     lang: "jp",
@@ -414,15 +433,24 @@
     try{
       const res = await fetch(src, {cache:"no-store"});
       if(!res.ok) throw new Error("HTTP " + res.status);
-const text = await res.text();
+      const text = await res.text();
 
-console.log(text);
+      // Tach header rieng de kiem tra truoc, khong phu thuoc so cot cua tung file
+      const firstLine = text.replace(/^\uFEFF/, "").split(/\r?\n/, 1)[0] || "";
+      const fieldNames = firstLine.split(",").map(h => h.trim());
+      const missing = validateHeader(fieldNames);
+      if(missing.length){
+        throw new Error("File thiếu cột bắt buộc: " + missing.join(", "));
+      }
 
-const data = parseCSV(text);
+      const rawRows = parseCSV(text).filter(r => r.word);
+      if(!rawRows.length) throw new Error("File rỗng, chưa có dòng từ vựng nào");
 
-console.log(data);
+      // Chuan hoa: file 5 cot (N1/business) hay 6 cot (Chinese co example_reading)
+      // deu tra ve cung 1 cau truc du lieu, phan con lai cua app khong can biet
+      // dang goc la may cot.
+      state.vocab = rawRows.map(normalizeRow);
 
-state.vocab = data.filter(r => r.word);
       buildOrder();
       render();
       el.status.textContent = "";
@@ -438,47 +466,20 @@ state.vocab = data.filter(r => r.word);
     return state.vocab[state.order[state.pos % state.order.length]];
   }
 
-function render(){
+  function render(){
     const item = currentItem();
     if(!item) return;
-
     el.word.textContent = item.word || "";
     el.reading.textContent = item.reading || "";
     el.meaning.textContent = item.meaning || "";
+    el.example.textContent = item.example ? ("例：" + item.example) : "";
+    el.exampleReading.textContent = item.example_reading || "";
+    el.exampleReading.style.display = item.example_reading ? "block" : "none";
+    el.exampleVi.textContent = item.example_vi || "";
+    el.counter.textContent = (state.pos % state.order.length + 1) + " / " + state.order.length;
 
-    // Nhật dùng 例:, Trung dùng 例句:
-    const exampleLabel = state.lang === "cn" ? "例句：" : "例：";
-
-    if(item.example){
-        el.example.textContent = exampleLabel + item.example;
-        el.example.style.display = "";
-    }else{
-        el.example.style.display = "none";
-    }
-
-    if(item.example_reading){
-        el.exampleReading.textContent = item.example_reading;
-        el.exampleReading.style.display = "";
-    }else{
-        el.exampleReading.style.display = "none";
-    }
-
-    if(item.example_vi){
-        el.exampleVi.textContent = item.example_vi;
-        el.exampleVi.style.display = "";
-    }else{
-        el.exampleVi.style.display = "none";
-    }
-
-    el.counter.textContent =
-        (state.pos % state.order.length + 1) +
-        " / " +
-        state.order.length;
-
-    if(state.autoSpeak){
-        speak(item.example || item.word);
-    }
-}
+    if(state.autoSpeak) speak(item.word);
+  }
 
   function goNext(){
     state.pos++;
@@ -543,10 +544,11 @@ function render(){
     resetTimer();
   });
 
-el.speakBtn.addEventListener("click", () => {
+  el.speakBtn.addEventListener("click", () => {
     const item = currentItem();
     if(item) speak(item.example || item.word);
-});
+  });
+
   el.intervalSelect.addEventListener("change", (e) => {
     state.intervalSec = parseInt(e.target.value, 10);
     resetTimer();
