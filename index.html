@@ -111,27 +111,21 @@
     font-variant-numeric: tabular-nums;
   }
 
-  /* signature frame around the headword — hanko stamp (JP) / jade medallion (CN) */
+  /* headword - khong con khung vien, chi giu mau nhan dien qua chinh chu */
   .word-frame{
-    width: 128px;
-    height: 128px;
     display:flex;
     align-items:center;
     justify-content:center;
-    margin: 6px 0 18px;
-    border: 3px solid var(--accent);
-    background: var(--accent-soft);
-    color: var(--accent);
-    transition: border-color .25s ease, color .25s ease, background .25s ease, border-radius .25s ease;
+    margin: 10px 0 16px;
   }
-  body[data-lang="jp"] .word-frame{ border-radius: 10px; }
-  body[data-lang="cn"] .word-frame{ border-radius: 999px; }
 
   .word{
     font-family:'Noto Serif JP','Noto Sans SC', serif;
-    font-size: 44px;
+    font-size: 52px;
     font-weight:700;
     line-height:1;
+    color: var(--accent);
+    transition: color .25s ease;
   }
 
   .reading{
@@ -259,7 +253,7 @@
 
   @media (max-width: 480px){
     .card{ padding: 28px 18px 20px; min-height: 340px; }
-    .word{ font-size: 38px; }
+    .word{ font-size: 42px; }
   }
 </style>
 </head>
