@@ -1,67 +1,1217 @@
 word,reading,meaning,example,example_vi
-你好,nǐ hǎo,xin chào,你好，很高興認識你。,"Xin chào, rất vui được quen biết bạn."
-早安,zǎo ān,chào buổi sáng,早安！昨晚睡得好嗎？,Chào buổi sáng! Tối qua ngủ ngon không?
-晚安,wǎn ān,chúc ngủ ngon,時間不早了，我先去睡了，晚安。,"Cũng khuya rồi, tôi đi ngủ trước đây, chúc ngủ ngon."
-好久不見,hǎojiǔbújiàn,lâu rồi không gặp,好久不見，你最近過得怎麼樣？,"Lâu rồi không gặp, dạo này bạn thế nào?"
-再見,zàijiàn,tạm biệt,時間不早了，我該走了，再見。,"Cũng muộn rồi, tôi phải đi đây, tạm biệt."
-謝謝,xièxie,cảm ơn,謝謝你的幫忙，我真的很感激。,"Cảm ơn sự giúp đỡ của bạn, tôi thực sự rất biết ơn."
-不客氣,bú kèqi,không có gì,不客氣，這是我應該做的。,"Không có gì, đây là việc tôi nên làm."
-對不起,duìbuqǐ,xin lỗi,對不起，我遲到了。,"Xin lỗi, tôi đến muộn."
-沒關係,méi guānxi,không sao,沒關係，下次注意一點就好。,"Không sao, lần sau chú ý một chút là được."
-請問,qǐngwèn,xin hỏi,請問洗手間在哪裡？,Xin hỏi nhà vệ sinh ở đâu ạ?
-麻煩你,máfan nǐ,phiền bạn,麻煩你幫我拿一下這個包裹。,Phiền bạn lấy giúp tôi kiện hàng này.
-辛苦了,xīnkǔ le,vất vả rồi,今天辛苦了，早點回去休息吧。,"Hôm nay vất vả rồi, về sớm nghỉ ngơi đi."
-恭喜,gōngxǐ,chúc mừng,恭喜你通過考試！,Chúc mừng bạn đã thi đậu!
-加油,jiāyóu,cố lên,比賽快到了，加油！,"Sắp đến ngày thi đấu rồi, cố lên!"
-我覺得,wǒ juéde,"tôi thấy, tôi nghĩ",我覺得這個計畫不太可行。,Tôi thấy kế hoạch này không khả thi lắm.
-我猜,wǒ cāi,tôi đoán,我猜他今天不會來了。,Tôi đoán hôm nay anh ấy sẽ không đến.
-真的假的,zhēnde jiǎde,thật hay giả vậy (ngạc nhiên),他中獎了？真的假的！,Anh ấy trúng số à? Thật hay giả vậy!
-太誇張了,tài kuāzhāng le,"quá đáng, quá lố",塞車塞了三個小時，太誇張了。,"Kẹt xe tận ba tiếng đồng hồ, quá đáng thật."
-受不了,shòubuliǎo,chịu không nổi,這麼吵的環境，我實在受不了。,"Môi trường ồn ào thế này, tôi thực sự chịu không nổi."
-開玩笑,kāiwánxiào,"đùa thôi, nói đùa",別緊張，我只是開玩笑的。,"Đừng căng thẳng, tôi chỉ đùa thôi."
-算了,suàn le,thôi bỏ đi,算了，別再想這件事了。,"Thôi bỏ đi, đừng nghĩ về chuyện này nữa."
-無所謂,wúsuǒwèi,sao cũng được,去哪裡吃飯我都無所謂。,Ăn ở đâu tôi cũng thấy sao cũng được.
-看心情,kàn xīnqíng,tùy tâm trạng,要不要出門，看心情吧。,Có ra ngoài hay không thì tùy tâm trạng vậy.
-鬆一口氣,sōng yìkǒuqì,thở phào nhẹ nhõm,考完試終於可以鬆一口氣了。,Thi xong cuối cùng cũng có thể thở phào nhẹ nhõm.
-嚇一跳,xià yítiào,giật mình,你突然出現，嚇了我一跳。,"Bạn đột nhiên xuất hiện, làm tôi giật cả mình."
-好無聊,hǎo wúliáo,chán quá,一個人在家好無聊。,Ở nhà một mình chán quá.
-超讚,chāo zàn,"tuyệt vời, đỉnh",這家店的咖啡超讚的。,Cà phê ở quán này ngon tuyệt vời.
-肚子餓,dùzi è,đói bụng,已經中午了，我肚子好餓。,"Đã trưa rồi, tôi đói bụng quá."
-吃飽了,chībǎo le,ăn no rồi,謝謝招待，我吃飽了。,"Cảm ơn đã chiêu đãi, tôi ăn no rồi."
-外帶,wàidài,mang đi (đồ ăn),一杯珍珠奶茶，外帶，謝謝。,"Một ly trà sữa trân châu, mang đi, cảm ơn."
-內用,nèiyòng,ăn tại chỗ,請問內用還是外帶？,Xin hỏi ăn tại chỗ hay mang đi ạ?
-買單,mǎidān,tính tiền,服務生，麻煩買單。,"Phục vụ ơi, làm ơn tính tiền giúp."
-結帳,jiézhàng,thanh toán,我們各付各的，還是一起結帳？,Chúng ta trả riêng hay thanh toán chung?
-不辣,bú là,không cay,我不太能吃辣，可以不辣嗎？,"Tôi không ăn cay được, có thể làm không cay không?"
-這裡有位子嗎,zhèlǐ yǒu wèizi ma,ở đây còn chỗ không,不好意思，這裡有位子嗎？,"Xin lỗi, ở đây còn chỗ trống không?"
-再來一份,zài lái yí fèn,thêm một phần nữa,這個很好吃，再來一份。,"Món này ngon quá, cho thêm một phần nữa."
-推薦,tuījiàn,"gợi ý, đề xuất",有什麼推薦的菜嗎？,Có món nào đề xuất không ạ?
-多少錢,duōshǎo qián,bao nhiêu tiền,這件衣服多少錢？,Cái áo này bao nhiêu tiền vậy?
-有點貴,yǒudiǎn guì,hơi đắt,這個價錢有點貴，可以便宜一點嗎？,"Giá này hơi đắt, có thể bớt chút được không?"
-算便宜一點,suàn piányi yìdiǎn,bớt rẻ chút được không,老闆，算便宜一點啦。,"Chủ ơi, bớt cho em chút xíu đi."
-試穿,shìchuān,mặc thử,可以試穿這件嗎？,Cho tôi mặc thử cái này được không?
-有沒有其他顏色,yǒuméiyǒu qítā yánsè,có màu khác không,這件衣服有沒有其他顏色？,Áo này có màu khác không ạ?
-刷卡,shuākǎ,quẹt thẻ,可以刷卡嗎？,Có thể quẹt thẻ được không?
-找錢,zhǎoqián,tiền thối lại,老闆，你忘了找我錢。,"Chủ ơi, chú quên thối tiền cho tôi rồi."
-怎麼走,zěnme zǒu,đi thế nào (hỏi đường),請問車站怎麼走？,Xin hỏi ra ga thì đi thế nào ạ?
-迷路了,mílù le,bị lạc đường,我迷路了，可以幫我看一下地圖嗎？,"Tôi bị lạc đường rồi, giúp tôi xem bản đồ được không?"
-塞車,sāichē,kẹt xe,現在是下班時間，路上很塞車。,"Bây giờ là giờ tan tầm, đường rất kẹt xe."
-趕時間,gǎn shíjiān,gấp thời gian,不好意思，我在趕時間，能快一點嗎？,"Xin lỗi, tôi đang gấp, làm nhanh giúp được không?"
-坐這班車對嗎,zuò zhè bān chē duì ma,đi chuyến xe này đúng không,請問坐這班車到火車站對嗎？,Xin hỏi đi chuyến xe này đến ga tàu đúng không ạ?
-到了叫我一下,dàole jiào wǒ yíxià,đến nơi gọi tôi nhé,司機大哥，到了麻煩叫我一下。,"Bác tài ơi, đến nơi làm ơn gọi tôi một tiếng."
-加班,jiābān,"tăng ca, làm thêm giờ",今天要加班，可能會晚點回家。,"Hôm nay phải tăng ca, có thể sẽ về nhà muộn."
-下班,xiàbān,tan làm,你幾點下班？,Mấy giờ bạn tan làm?
-忙不過來,mángbúguòlái,bận không xuể,最近工作太多，我忙不過來了。,"Dạo này công việc nhiều quá, tôi bận không xuể."
-有空嗎,yǒukòng ma,có rảnh không,你今天下午有空嗎？,Chiều nay bạn có rảnh không?
-排時間,pái shíjiān,sắp xếp thời gian,我幫你排時間開會。,Tôi sắp xếp thời gian để bạn họp.
-開會,kāihuì,họp hành,下午三點要開會，別遲到。,"Ba giờ chiều phải họp, đừng đến muộn."
-等一下,děng yíxià,đợi một chút,等一下，我馬上就好。,"Đợi một chút, tôi xong ngay đây."
-快一點,kuài yìdiǎn,nhanh lên chút,快一點，電影快開始了。,"Nhanh lên chút, phim sắp bắt đầu rồi."
-慢慢來,mànmàn lái,từ từ thôi,不用急，慢慢來就好。,"Không cần vội, cứ từ từ thôi."
-你說什麼,nǐ shuō shénme,bạn nói gì cơ,不好意思，你剛剛說什麼？,"Xin lỗi, vừa nãy bạn nói gì cơ?"
-我不懂,wǒ bùdǒng,tôi không hiểu,這個問題我不太懂，可以再解釋一次嗎？,"Câu hỏi này tôi không hiểu lắm, giải thích lại được không?"
-我知道了,wǒ zhīdào le,tôi biết rồi,好，我知道了，謝謝你告訴我。,"Được, tôi biết rồi, cảm ơn bạn đã cho tôi biết."
-隨便你,suíbiàn nǐ,tùy bạn,要不要去都隨便你。,Có đi hay không thì tùy bạn.
-我請客,wǒ qǐngkè,tôi mời,今天我請客，你們想吃什麼都可以。,"Hôm nay tôi mời, các bạn muốn ăn gì cũng được."
-下次再約,xiàcì zài yuē,hẹn lần sau,今天沒空，下次再約吧。,"Hôm nay không rảnh, hẹn lần sau vậy."
-保重,bǎozhòng,giữ gìn sức khỏe,天氣變冷了，保重身體。,"Trời trở lạnh rồi, giữ gìn sức khỏe nhé."
+我,wŏ,"tôi, tớ (ngôi thứ nhất)",我是學生。,Tôi là học sinh.
+你/妳,nĭ,"bạn, cậu (ngôi thứ hai)",你好嗎？,Bạn có khỏe không?
+他/她,tā,"anh ấy, cô ấy (ngôi thứ ba)",他是我的老師。,Anh ấy là thầy giáo của tôi.
+我們,wŏmen,"chúng tôi, chúng ta",我們是同學。,Chúng tôi là bạn học.
+你們/妳們,nĭmen,các bạn (số nhiều),你們好！,Chào các bạn!
+他們/她們,tāmen,họ (số nhiều),他們是學生。,Họ là học sinh.
+您,nín,"ngài (kính ngữ, ngôi thứ hai)",您是老師嗎？,Ngài có phải là giáo viên không?
+誰,shéi,ai,他是誰？,Anh ấy là ai?
+姓名,xìngmíng,họ tên,請問你的姓名？,Xin hỏi họ tên của bạn là gì?
+人,rén,người,他是台灣人。,Anh ấy là người Đài Loan.
+國,guó,nước (quốc gia),你是哪一國人？,Bạn là người nước nào?
+中國,zhōngguó,Trung Quốc,他是中國人。,Anh ấy là người Trung Quốc.
+美國,měiguó,Mỹ (Hoa Kỳ),我是美國人。,Tôi là người Mỹ.
+日本,rìběn,Nhật Bản,她是日本人。,Cô ấy là người Nhật Bản.
+台灣/臺灣,táiwān,Đài Loan,我住在台灣。,Tôi sống ở Đài Loan.
+名字(˙ㄗ),míngzi,tên (gọi),你的名字是什麼？,Tên của bạn là gì?
+家,jiā,"nhà, gia đình",我家有四個人。,Nhà tôi có bốn người.
+電話,diànhuà,điện thoại,這是我的電話。,Đây là điện thoại của tôi.
+時間,shíjiān,thời gian,現在沒有時間。,Bây giờ không có thời gian.
+小時,xiăoshí,tiếng (đơn vị giờ),我學中文兩個小時。,Tôi học tiếng Trung hai tiếng đồng hồ.
+現在,xiànzài,"bây giờ, hiện tại",現在幾點？,Bây giờ là mấy giờ?
+今年,jīnnián,năm nay,你今年幾歲？,Năm nay bạn bao nhiêu tuổi?
+今天,jīntiān,hôm nay,今天是星期一。,Hôm nay là thứ Hai.
+明天,míngtiān,ngày mai,明天我要上課。,Ngày mai tôi phải đi học.
+昨天,zuótiān,hôm qua,昨天我很忙。,Hôm qua tôi rất bận.
+早上,zăoshàng,buổi sáng,早上我喝水。,Buổi sáng tôi uống nước.
+上午,shàngwŭ,buổi sáng (trước 12 giờ trưa),我上午有課。,Buổi sáng tôi có lớp học.
+中午,zhōngwŭ,buổi trưa,中午我們吃飯。,Buổi trưa chúng tôi ăn cơm.
+下午,xiàwŭ,buổi chiều,下午我去學校。,Buổi chiều tôi đến trường.
+晚上,wănshàng,buổi tối,晚上我看電視。,Buổi tối tôi xem tivi.
+一,yī,một (số 1),我有一個哥哥。,Tôi có một người anh trai.
+二,èr,hai (số 2),現在二點。,Bây giờ là hai giờ.
+三,sān,ba (số 3),我家有三個人。,Nhà tôi có ba người.
+四,sì,bốn (số 4),他四歲。,Anh ấy bốn tuổi.
+五,wŭ,năm (số 5),現在五點。,Bây giờ là năm giờ.
+六,liù,sáu (số 6),我六點起床。,Tôi dậy lúc sáu giờ.
+七,qī,bảy (số 7),她七歲。,Cô bé bảy tuổi.
+八,bā,tám (số 8),現在八點。,Bây giờ là tám giờ.
+九,jiŭ,chín (số 9),我九點上課。,Tôi vào lớp lúc chín giờ.
+十,shí,mười (số 10),他有十枝筆。,Anh ấy có mười cây bút.
+兩,liăng,hai (dùng trước lượng từ),我有兩個哥哥。,Tôi có hai người anh trai.
+時候,shíhòu,"lúc, thời điểm",你什麼時候來？,Khi nào bạn đến?
+百,băi,trăm,這枝筆一百塊。,Cây bút này giá một trăm đồng.
+半,bàn,"nửa, rưỡi",現在三點半。,Bây giờ là ba giờ rưỡi.
+千,qiān,nghìn,這個電腦五千塊。,Máy tính này giá năm nghìn đồng.
+爸爸/爸,bàba/bà,"bố, ba",我爸爸是老師。,Bố tôi là giáo viên.
+媽媽/媽,māma/mā,"mẹ, má",我媽媽很忙。,Mẹ tôi rất bận.
+哥哥/哥,gēge/gē,anh trai,我哥哥很高。,Anh trai tôi rất cao.
+弟弟/弟,dìdi/dì,em trai,我弟弟是學生。,Em trai tôi là học sinh.
+姊姊/姐姐/姊/姐,jiějie/jiě,chị gái,我姊姊很漂亮。,Chị gái tôi rất xinh đẹp.
+妹妹/妹,mèimei/mèi,em gái,我妹妹八歲。,Em gái tôi tám tuổi.
+小孩(子),xiăohái(zi),"trẻ con, đứa trẻ",她家有兩個小孩。,Nhà cô ấy có hai đứa trẻ.
+的,de,của (trợ từ sở hữu),這是我的電話。,Đây là điện thoại của tôi.
+第,dì,thứ (số thứ tự),這是我第一次來台灣。,Đây là lần đầu tiên tôi đến Đài Loan.
+分,fēn,phút,現在三點十分。,Bây giờ là ba giờ mười phút.
+點,diăn,giờ (đơn vị thời gian),現在幾點？,Bây giờ là mấy giờ?
+個,ge,cái (lượng từ chung),我有一個電話。,Tôi có một cái điện thoại.
+歲,suì,tuổi,我弟弟十歲。,Em trai tôi mười tuổi.
+年,nián,năm,我今年二十歲。,Năm nay tôi hai mươi tuổi.
+住,zhù,"ở, sống (tại)",你住哪裡？,Bạn ở đâu?
+來,lái,"đến, tới",他明天來台灣。,Ngày mai anh ấy đến Đài Loan.
+是,shì,là,我是學生。,Tôi là học sinh.
+姓,xìng,họ (họ tên),我姓陳。,Tôi họ Trần.
+覺得,juéde,"cảm thấy, nghĩ rằng",我覺得很忙。,Tôi cảm thấy rất bận.
+喜歡,xĭhuān,thích,我喜歡中文。,Tôi thích tiếng Trung.
+打電話,dădiànhuà,gọi điện thoại,我打電話給老師。,Tôi gọi điện thoại cho thầy giáo.
+漂亮,piàolìang,xinh đẹp,她很漂亮。,Cô ấy rất xinh đẹp.
+高,gāo,cao,我哥哥很高。,Anh trai tôi rất cao.
+老,lăo,"già, cũ",他的電腦很老。,Máy tính của anh ấy đã cũ.
+好,hăo,"tốt, khỏe",你好嗎？,Bạn có khỏe không?
+很,hěn,rất,我很好。,Tôi rất khỏe.
+真,zhēn,"thật, thật là",你真好。,Bạn thật tốt.
+電腦,diànnăo,máy tính,我有一台電腦。,Tôi có một chiếc máy tính.
+老師,lăoshī,giáo viên (thầy/cô giáo),她是我的老師。,Cô ấy là giáo viên của tôi.
+買,măi,mua,我要買電腦。,Tôi muốn mua máy tính.
+忙,máng,bận,我今天很忙。,Hôm nay tôi rất bận.
+學生,xuéshēng,học sinh (sinh viên),他是學生。,Anh ấy là học sinh.
+大學,dàxué,đại học,我在大學學中文。,Tôi học tiếng Trung ở trường đại học.
+學校,xuéxiào,trường học,我今天去學校。,Hôm nay tôi đến trường.
+中文,zhōngwén,tiếng Trung,我喜歡學中文。,Tôi thích học tiếng Trung.
+同學,tóngxué,bạn học,他是我的同學。,Anh ấy là bạn học của tôi.
+字,zì,chữ,我學寫字。,Tôi học viết chữ.
+筆,bĭ,cây bút,這枝筆是我的。,Cây bút này là của tôi.
+學,xué,học,我學中文。,Tôi học tiếng Trung.
+問,wèn,hỏi,我問老師。,Tôi hỏi thầy giáo.
+說,shuō,nói,他說中文。,Anh ấy nói tiếng Trung.
+寫,xiě,viết,我寫字。,Tôi viết chữ.
+聽,tīng,nghe,我聽老師說中文。,Tôi nghe thầy giáo nói tiếng Trung.
+對,duì,đúng,你說得對。,Bạn nói đúng.
+能,néng,có thể,我能說中文。,Tôi có thể nói tiếng Trung.
+可以,kěyĭ,"có thể, được phép",我可以問嗎？,Tôi có thể hỏi được không?
+上課,shàngkè,lên lớp (học bài),我九點上課。,Tôi vào lớp học lúc chín giờ.
+知道,zhīdào,biết,我不知道。,Tôi không biết.
+電視(機),diànshì(jī),ti vi,我喜歡看電視。,Tôi thích xem tivi.
+水,shuĭ,nước,我喝水。,Tôi uống nước.
+久,jiŭ,lâu (thời gian),好久不見，你好嗎？,"Lâu rồi không gặp, bạn khỏe không?"
+早,zăo,sớm,我今天早上很早起床。,Hôm nay tôi thức dậy rất sớm.
+再,zài,"lại, thêm lần nữa",請你再說一次。,Xin bạn nói lại một lần nữa.
+書,shū,sách,我喜歡看書。,Tôi thích đọc sách.
+電影,diànyĭng,phim điện ảnh,我們去看電影，好嗎？,"Chúng ta đi xem phim, được không?"
+以前,yĭqián,trước đây,以前我住在台北。,Trước đây tôi sống ở Đài Bắc.
+以後,yĭhòu,sau này,以後我想當老師。,Sau này tôi muốn làm giáo viên.
+走,zŏu,đi bộ/rời đi,我們走路去學校。,Chúng tôi đi bộ đến trường.
+等,děng,đợi/chờ,請你等我一下。,Xin bạn đợi tôi một chút.
+看,kàn,xem/nhìn,你在看什麼？,Bạn đang xem gì vậy?
+就,jiù,"thì, liền (ngay)",我下課就回家。,Tôi tan học là về nhà ngay.
+什麼/甚麼,shénme,gì/cái gì,你叫什麼名字？,Bạn tên là gì?
+朋友,péngyŏu,bạn bè,他是我的好朋友。,Anh ấy là bạn tốt của tôi.
+東西,dōngxi,đồ vật,這是什麼東西？,Đây là cái gì vậy?
+吧,ba,trợ từ (nhé/đi),我們走吧。,Chúng ta đi thôi.
+呢,ne,trợ từ hỏi (còn... thì sao),我很好，你呢？,"Tôi khỏe, còn bạn thì sao?"
+嗎,ma,trợ từ hỏi (có... không),你是學生嗎？,Bạn là học sinh phải không?
+找,zhăo,tìm,我在找我的手機。,Tôi đang tìm điện thoại của tôi.
+做,zuò,làm,你在做什麼？,Bạn đang làm gì vậy?
+再見,zàijiàn,tạm biệt,老師，再見！,Tạm biệt thầy/cô!
+怎麼樣,zěnmeyàng,thế nào,今天天氣怎麼樣？,Hôm nay thời tiết thế nào?
+叫,jiào,gọi là/tên là,我叫王小明。,Tôi tên là Vương Tiểu Minh.
+謝謝,xièxie,cảm ơn,謝謝你的幫忙。,Cảm ơn sự giúp đỡ của bạn.
+對不起,duìbùqĭ,xin lỗi,對不起，我遲到了。,"Xin lỗi, tôi đã đến muộn."
+請問,qĭngwèn,xin hỏi,請問洗手間在哪裡？,Xin hỏi nhà vệ sinh ở đâu?
+這,zhè,này/đây,這是我的書。,Đây là sách của tôi.
+那,nà,đó/kia,那是誰的車？,Đó là xe của ai?
+公共汽車/公車,gōnggòngqìchē/gōngchē,xe buýt,我每天坐公車上班。,Mỗi ngày tôi đi xe buýt đi làm.
+車(子),chē(zi),xe,這輛車子很貴。,Chiếc xe này rất đắt.
+到,dào,đến,我到家了。,Tôi đã về đến nhà.
+去,qù,đi,我要去學校。,Tôi phải đi đến trường.
+回,huí,trở về,你什麼時候回家？,Khi nào bạn về nhà?
+坐,zuò,ngồi,請坐這裡。,Mời ngồi ở đây.
+這裡/這裏/這兒,zhèlĭ/zhèr,ở đây,我在這裡等你。,Tôi đợi bạn ở đây.
+那裡/那裏/那兒,nàlĭ/nàr,ở đó,我的書在那裡。,Sách của tôi ở đó.
+哪裡/哪裏/哪兒,nălĭ/năr,ở đâu,你家在哪裡？,Nhà bạn ở đâu?
+開車,kāichē,lái xe,爸爸每天開車上班。,Mỗi ngày bố lái xe đi làm.
+錢,qián,tiền,我沒有錢。,Tôi không có tiền.
+多少,duōshăo,bao nhiêu,這個多少錢？,Cái này bao nhiêu tiền?
+給,gěi,cho/đưa,請給我一杯水。,Xin cho tôi một ly nước.
+貴,guì,đắt,這件衣服太貴了。,Chiếc áo này quá đắt.
+便宜,piányí,rẻ,這裡的東西很便宜。,Đồ ở đây rất rẻ.
+大,dà,to/lớn,這間房子很大。,Căn nhà này rất to.
+小,xiăo,nhỏ,這隻狗很小。,Con chó này rất nhỏ.
+難,nán,khó,中文很難嗎？,Tiếng Trung có khó không?
+容易,róngyì,dễ,這個問題很容易。,Câu hỏi này rất dễ.
+有,yŏu,có,我有一個哥哥。,Tôi có một người anh trai.
+想,xiăng,muốn/nghĩ,我想吃飯。,Tôi muốn ăn cơm.
+幾,jĭ,mấy,現在幾點？,Bây giờ mấy giờ rồi?
+塊,kuài,đồng (tiền),這個五十塊。,Cái này năm mươi đồng.
+位,wèi,vị (lượng từ chỉ người),這位是我的老師。,Vị này là thầy/cô giáo của tôi.
+飯,fàn,cơm,我還沒吃飯。,Tôi vẫn chưa ăn cơm.
+吃,chī,ăn,你吃飯了嗎？,Bạn ăn cơm chưa?
+請,qĭng,mời/xin,請進。,Xin mời vào.
+也,yě,cũng,我也是學生。,Tôi cũng là học sinh.
+不,bù,không,我不喜歡咖啡。,Tôi không thích cà phê.
+沒,méi,không (chưa),我沒去過日本。,Tôi chưa từng đi Nhật Bản.
+都,dōu,đều,我們都是台灣人。,Chúng tôi đều là người Đài Loan.
+只,zhĭ,chỉ,我只有一個朋友。,Tôi chỉ có một người bạn.
+可是,kěshì,nhưng,我想去，可是沒有錢。,"Tôi muốn đi, nhưng không có tiền."
+還是,háishì,hay là,你要喝茶還是咖啡？,Bạn muốn uống trà hay là cà phê?
+了,le,"trợ từ (đã, rồi)",我吃飯了。,Tôi ăn cơm rồi.
+得,de,trợ từ chỉ mức độ,他說得很好。,Anh ấy nói rất hay.
+過,guò,đã từng (trợ từ kinh nghiệm),我去過台北。,Tôi đã từng đi Đài Bắc.
+沒有,méiyŏu,không có,房間裡沒有人。,Trong phòng không có ai.
+男,nán,nam/con trai,他是男學生。,Anh ấy là học sinh nam.
+女,nǚ,nữ/con gái,她是女學生。,Cô ấy là học sinh nữ.
+孩子,háizi,đứa trẻ,這個孩子很可愛。,Đứa trẻ này rất đáng yêu.
+小姐,xiăojiě,cô/tiểu thư,王小姐是我的老師。,Cô Vương là giáo viên của tôi.
+先生,xiānshēng,ông/quý ông,陳先生在家嗎？,Ông Trần có ở nhà không?
+太太,tàitai,bà/vợ,林太太很漂亮。,Bà Lâm rất xinh đẹp.
+女兒,nǚér,con gái,我的女兒五歲了。,Con gái tôi năm tuổi rồi.
+兒子,érzi,con trai,他的兒子很高。,Con trai anh ấy rất cao.
+大家,dàjiā,mọi người,大家好！,Xin chào mọi người!
+路,lù,đường,這條路很長。,Con đường này rất dài.
+手機,shŏujī,điện thoại di động,我的手機不見了。,Điện thoại của tôi bị mất rồi.
+明年,míngnián,năm sau,明年我要去台灣。,Năm sau tôi sẽ đi Đài Loan.
+去年,qùnián,năm ngoái,去年我在台北工作。,Năm ngoái tôi làm việc ở Đài Bắc.
+生日,shēngrì,sinh nhật,今天是我的生日。,Hôm nay là sinh nhật của tôi.
+月,yuè,tháng,一年有十二個月。,Một năm có mười hai tháng.
+日,rì,ngày,今天是幾月幾日？,Hôm nay là ngày mấy tháng mấy?
+星期,xīngqí,tuần,我下星期回國。,Tuần sau tôi về nước.
+星期天/星期日,xīngqítiān/xīngqírì,chủ nhật,星期天我不上班。,Chủ nhật tôi không đi làm.
+禮拜天,lĭbàitiān,chủ nhật,禮拜天我在家休息。,Chủ nhật tôi nghỉ ngơi ở nhà.
+週末/周末,zhōumò,cuối tuần,週末你要做什麼？,Cuối tuần bạn định làm gì?
+號,hào,số/ngày (trong tháng),今天是七月十七號。,Hôm nay là ngày mười bảy tháng bảy.
+天,tiān,ngày/trời,我在台灣住了三天。,Tôi đã ở Đài Loan ba ngày.
+從,cóng,từ,我從日本來。,Tôi đến từ Nhật Bản.
+在,zài,ở/tại/đang,我在家看電視。,Tôi đang ở nhà xem tivi.
+愛,ài,yêu,我愛我的家人。,Tôi yêu gia đình của tôi.
+快樂,kuàilè,vui vẻ,祝你生日快樂！,Chúc bạn sinh nhật vui vẻ!
+太,tài,quá,今天太熱了。,Hôm nay quá nóng.
+公園,gōngyuán,công viên,我們去公園散步。,Chúng ta đi công viên đi dạo.
+國家,guójiā,quốc gia,台灣是一個美麗的國家。,Đài Loan là một quốc gia xinh đẹp.
+分鐘,fēnzhōng,phút,等我五分鐘。,Đợi tôi năm phút.
+家人,jiārén,"người nhà, người trong gia đình",我家人都很喜歡看電視。,Người nhà tôi đều rất thích xem tivi.
+胖,pàng,"béo, mập",他最近變胖了。,Gần đây anh ấy béo lên rồi.
+矮,ăi,thấp (người),我弟弟比我矮。,Em trai tôi thấp hơn tôi.
+瘦,shòu,"gầy, ốm",她很瘦。,Cô ấy rất gầy.
+萬,wàn,"vạn, mười nghìn",這台電腦要三萬塊。,Cái máy tính này giá ba mươi nghìn đồng.
+鐘頭,zhōngtóu,"tiếng đồng hồ, giờ",我等了一個鐘頭。,Tôi đã đợi một tiếng đồng hồ.
+晚,wăn,"muộn, trễ",你今天來得很晚。,Hôm nay bạn đến rất muộn.
+前天,qiántiān,hôm kia,前天我沒有上課。,Hôm kia tôi không đi học.
+後天,hòutiān,ngày kia,我們後天見。,Chúng ta gặp nhau vào ngày kia nhé.
+前年,qiánnián,năm kia,前年我去過台灣。,Năm kia tôi đã từng đi Đài Loan.
+後年,hòunián,hai năm nữa,我後年畢業。,Hai năm nữa tôi tốt nghiệp.
+自己,zìjĭ,"tự mình, bản thân",這件事我自己可以做。,Việc này tự tôi có thể làm được.
+它,tā,nó (chỉ đồ vật),那本書很有意思，我很喜歡它。,"Cuốn sách đó rất thú vị, tôi rất thích nó."
+它們,tāmen,chúng nó (chỉ đồ vật),這些蘋果很甜，我要買它們。,"Những quả táo này rất ngọt, tôi muốn mua chúng."
+最,zuì,nhất,他是我們班最高的學生。,Anh ấy là học sinh cao nhất lớp chúng tôi.
+怕,pà,sợ,我怕蛇。,Tôi sợ rắn.
+美,měi,đẹp,這裡的風景很美。,Phong cảnh ở đây rất đẹp.
+應該/應,yīnggāi/yīng,"nên, phải",你應該多喝水。,Bạn nên uống nhiều nước hơn.
+真的,zhēnde,"thật sự, thật là",這件事是真的嗎？,Chuyện này là thật sao?
+非常,fēicháng,"rất, vô cùng",這部電影非常好看。,Bộ phim này rất hay.
+工作,gōngzuò,"công việc, làm việc",我爸爸每天都要工作。,Bố tôi ngày nào cũng phải đi làm.
+醫生/醫師,yīshēng/yīshī,bác sĩ,我媽媽是醫生。,Mẹ tôi là bác sĩ.
+一點/一點兒/一點點,yīdiăn/yīdiănr/yīdiăndiăn,"một chút, một ít",我會說一點中文。,Tôi biết nói một chút tiếng Trung.
+一些,yīxiē,"một vài, một số",桌上有一些水果。,Trên bàn có một vài loại trái cây.
+本,běn,lượng từ cho sách/vở,我買了三本書。,Tôi đã mua ba cuốn sách.
+張,zhāng,lượng từ cho vật phẳng (giấy/bàn/vé),我要一張票。,Tôi cần một tấm vé.
+英文,yīngwén,tiếng Anh,他英文說得很好。,Anh ấy nói tiếng Anh rất giỏi.
+紙,zhĭ,giấy,請給我一張紙。,Xin đưa cho tôi một tờ giấy.
+問題,wèntí,"câu hỏi, vấn đề",我有一個問題想問你。,Tôi có một câu hỏi muốn hỏi bạn.
+意思,yìsi,ý nghĩa,這個字是什麼意思？,Chữ này nghĩa là gì?
+餐廳/飯館,cāntīng/fànguăn,"nhà hàng, quán ăn",我們去餐廳吃飯吧。,Chúng ta đi nhà hàng ăn cơm nhé.
+畫/畫兒,huà/huàr,"tranh, bức vẽ",牆上有一張畫。,Trên tường có một bức tranh.
+讀,dú,đọc,我喜歡讀中文書。,Tôi thích đọc sách tiếng Trung.
+會,huì,biết/sẽ/có thể,我會說一點日文。,Tôi biết nói một chút tiếng Nhật.
+為什麼,wèishénme,"tại sao, vì sao",你為什麼不去上課？,Tại sao bạn không đi học?
+下課,xiàkè,tan học,我們十二點下課。,Chúng tôi tan học lúc mười hai giờ.
+說話,shuōhuà,nói chuyện,老師在說話，請安靜。,"Thầy giáo đang nói, xin hãy yên lặng."
+考試,kăoshì,"thi, kỳ thi",明天有中文考試。,Ngày mai có kỳ thi tiếng Trung.
+懂,dŏng,hiểu,你懂我的意思嗎？,Bạn có hiểu ý tôi không?
+念/唸,niàn,đọc/học bài,他每天都念書。,Ngày nào anh ấy cũng học bài.
+課,kè,bài học,這一課很難。,Bài học này rất khó.
+教,jiāo,dạy,王老師教我們中文。,Thầy Vương dạy chúng tôi tiếng Trung.
+告訴,gàosù,cho biết,請告訴我你的名字。,Xin hãy cho tôi biết tên của bạn.
+錯,cuò,sai,這個答案是錯的。,Đáp án này sai rồi.
+功課,gōngkè,bài tập về nhà,我今天沒有功課。,Hôm nay tôi không có bài tập về nhà.
+教室,jiàoshì,phòng học,學生都在教室裡。,Học sinh đều ở trong phòng học.
+句子,jùzi,câu (văn),請用這個字寫一個句子。,Hãy dùng từ này để viết một câu.
+休息,xiūxí,nghỉ ngơi,我累了，想休息一下。,"Tôi mệt rồi, muốn nghỉ ngơi một chút."
+房(子),fáng(zi),nhà,這間房子很大。,Căn nhà này rất rộng.
+房間,fángjiān,phòng,我的房間在二樓。,Phòng của tôi ở tầng hai.
+樓,lóu,tầng lầu,我住在三樓。,Tôi sống ở tầng ba.
+門,mén,cửa,請關門。,Xin hãy đóng cửa lại.
+門口,ménkŏu,cửa ra vào,他在門口等你。,Anh ấy đang đợi bạn ở cửa.
+桌(子),zhuō(zi),cái bàn,書在桌子上。,Sách ở trên bàn.
+椅(子),yĭ(zi),cái ghế,這張椅子很舒服。,Cái ghế này rất thoải mái.
+床,chuáng,giường,我的床很大。,Giường của tôi rất to.
+開,kāi,mở,請開窗戶。,Xin hãy mở cửa sổ.
+低,dī,thấp,這張桌子太低了。,Cái bàn này quá thấp.
+不錯,bùcuò,"khá tốt, không tệ",這家餐廳的菜不錯。,Món ăn ở nhà hàng này khá ngon.
+天氣,tiānqì,thời tiết,今天天氣很好。,Hôm nay thời tiết rất đẹp.
+空氣,kōngqì,không khí,山上的空氣很新鮮。,Không khí trên núi rất trong lành.
+冷,lěng,lạnh,今天很冷。,Hôm nay trời rất lạnh.
+熱,rè,nóng,夏天很熱。,Mùa hè rất nóng.
+雨,yŭ,mưa,外面在下雨。,Bên ngoài đang mưa.
+下雨,xiàyŭ,trời mưa,明天會下雨。,Ngày mai trời sẽ mưa.
+風,fēng,gió,今天風很大。,Hôm nay gió rất to.
+山,shān,núi,我週末想去爬山。,Cuối tuần tôi muốn đi leo núi.
+花/花兒,huā/huār,hoa,花園裡有很多花。,Trong vườn có rất nhiều hoa.
+枝,zhī,lượng từ cho hoa/bút,她買了一枝花。,Cô ấy đã mua một bông hoa.
+魚,yú,cá,我喜歡吃魚。,Tôi thích ăn cá.
+雞,jī,gà,媽媽買了一隻雞。,Mẹ đã mua một con gà.
+牛,niú,bò,田裡有幾頭牛。,Ngoài ruộng có mấy con bò.
+豬,zhū,"lợn, heo",農場裡有很多豬。,Trong nông trại có rất nhiều heo.
+咖啡,kāfēi,cà phê,我每天早上喝咖啡。,Mỗi sáng tôi đều uống cà phê.
+茶,chá,trà,你要喝茶還是咖啡？,Bạn muốn uống trà hay cà phê?
+用,yòng,dùng,我用手機打電話。,Tôi dùng điện thoại để gọi điện.
+穿,chuān,mặc,她今天穿紅色的衣服。,Hôm nay cô ấy mặc quần áo màu đỏ.
+起床,qĭchuáng,thức dậy,我每天七點起床。,Mỗi ngày tôi thức dậy lúc bảy giờ.
+方便,fāngbiàn,"tiện lợi, thuận tiện",坐捷運很方便。,Đi tàu điện ngầm rất tiện lợi.
+睡覺,shuìjiào,đi ngủ,我晚上十一點睡覺。,Buổi tối tôi đi ngủ lúc mười một giờ.
+起來,qĭlái,dậy lên,快起來，要遲到了！,"Mau dậy đi, sắp trễ rồi!"
+先,xiān,trước,我先吃飯再去上課。,Tôi ăn cơm trước rồi mới đi học.
+常常/常,chángcháng/cháng,thường xuyên,他常常來我家玩。,Anh ấy thường đến nhà tôi chơi.
+每,měi,mỗi,我每天都運動。,Ngày nào tôi cũng tập thể dục.
+打,dă,đánh/chơi (thể thao),我們一起打籃球吧。,Chúng ta cùng chơi bóng rổ nhé.
+玩,wán,chơi,小朋友喜歡在公園玩。,Trẻ nhỏ thích chơi ở công viên.
+運動,yùndòng,vận động thể thao,每天運動對身體很好。,Tập thể dục mỗi ngày rất tốt cho sức khỏe.
+走路,zŏulù,đi bộ,我每天走路去學校。,Ngày nào tôi cũng đi bộ đến trường.
+唱歌,chànggē,hát,她很喜歡唱歌。,Cô ấy rất thích hát.
+跳,tiào,nhảy,小狗跳得很高。,Chú chó con nhảy rất cao.
+還,hái,"vẫn, còn",我還沒吃飯。,Tôi vẫn chưa ăn cơm.
+唱,chàng,hát,我們一起唱這首歌吧。,Chúng ta cùng hát bài hát này nhé.
+歌,gē,bài hát,這首歌很好聽。,Bài hát này rất hay.
+跳舞,tiàowŭ,nhảy múa,她跳舞跳得很好。,Cô ấy nhảy múa rất giỏi.
+又,yòu,lại (một lần nữa),他今天又遲到了。,Hôm nay anh ấy lại đến muộn.
+球,qiú,quả bóng / trái banh,他喜歡打球。,Anh ấy thích chơi bóng.
+介紹,jièshào,giới thiệu,我來介紹一下，這是我朋友。,"Để tôi giới thiệu một chút, đây là bạn tôi."
+沒關係(˙ㄒㄧ),méiguānxi,không sao đâu,A：對不起。B：沒關係。,A: Xin lỗi. B: Không sao đâu.
+事/事兒,shì/shìr,"việc, chuyện",你今天有事嗎？,Hôm nay bạn có việc gì không?
+怎麼,zěnme,"như thế nào, sao",這個字怎麼唸？,Chữ này đọc như thế nào?
+哪,nă,"nào, đâu",你要去哪裡？,Bạn muốn đi đâu?
+裡面/裏面,lĭmiàn,bên trong,書在包包裡面。,Quyển sách ở trong cặp.
+上(面),shàng(miàn),"bên trên, phía trên",書在桌子上面。,Quyển sách ở trên bàn.
+下(面),xià(miàn),"bên dưới, phía dưới",貓在桌子下面。,Con mèo ở dưới bàn.
+外(面),wài(miàn),bên ngoài,外面在下雨。,Bên ngoài đang mưa.
+外頭(˙ㄊㄡ),wàitou,bên ngoài,外頭很冷，穿外套吧。,"Bên ngoài rất lạnh, hãy mặc áo khoác vào."
+前(面),qián(miàn),phía trước,學校前面有一家咖啡店。,Phía trước trường học có một quán cà phê.
+後(面),hòu(miàn),phía sau,我家後面有一個公園。,Phía sau nhà tôi có một công viên.
+左(邊),zuŏ(biān),bên trái,郵局在左邊。,Bưu điện ở bên trái.
+右(邊),yòu(biān),bên phải,銀行在右邊。,Ngân hàng ở bên phải.
+旁(邊),páng(biān),bên cạnh,我家旁邊有一家超市。,Bên cạnh nhà tôi có một siêu thị.
+裡/裏,lĭ,"bên trong, trong",房間裡有一張床。,Trong phòng có một cái giường.
+中,zhōng,"giữa, trong",教室中有很多學生。,Trong lớp học có rất nhiều học sinh.
+地方,dìfāng,"nơi, chỗ",這是一個很漂亮的地方。,Đây là một nơi rất đẹp.
+附近,fùjìn,"gần đây, phụ cận",附近有沒有郵局？,Gần đây có bưu điện không?
+帶,dài,"mang, mang theo",出門要帶雨傘。,Ra ngoài phải mang theo ô.
+拿,ná,"cầm, lấy",請幫我拿一下這本書。,Hãy giúp tôi cầm quyển sách này.
+站,zhàn,"trạm, ga (danh từ); đứng (động từ)",火車站在哪裡？,Ga xe lửa ở đâu?
+快,kuài,nhanh,他走得很快。,Anh ấy đi rất nhanh.
+慢,màn,chậm,老人走得很慢。,Người già đi rất chậm.
+計程車,jìchéngchē,xe taxi,我們坐計程車去吧。,Chúng ta đi taxi đi.
+火車,huŏchē,"xe lửa, tàu hỏa",火車幾點開？,Mấy giờ tàu hỏa chạy?
+飛機,fēijī,máy bay,我明天坐飛機去台北。,Ngày mai tôi đi máy bay đến Đài Bắc.
+輛,liàng,chiếc (lượng từ cho xe),他買了一輛新車。,Anh ấy đã mua một chiếc xe mới.
+出,chū,"ra, đi ra",他從房間裡走出來。,Anh ấy đi ra từ trong phòng.
+進,jìn,vào,請進來。,Mời vào.
+外國,wàiguó,nước ngoài,她去外國念書。,Cô ấy đi nước ngoài học.
+手,shŏu,tay,我的手很冷。,Tay tôi rất lạnh.
+腳,jiăo,chân,我的腳很痛。,Chân tôi rất đau.
+身體,shēntĭ,"cơ thể, sức khỏe",你的身體好一點了嗎？,Sức khỏe của bạn đã khá hơn chưa?
+眼睛,yănjīng,mắt,她的眼睛很漂亮。,Đôi mắt của cô ấy rất đẹp.
+鼻(子),bí(zi),mũi,他的鼻子很高。,Mũi của anh ấy rất cao.
+藥,yào,thuốc,你要記得吃藥。,Bạn phải nhớ uống thuốc.
+累,lèi,mệt,我今天很累。,Hôm nay tôi rất mệt.
+頭,tóu,đầu,我的頭很痛。,Đầu tôi rất đau.
+耳朵,ěrduo,tai,他的耳朵很大。,Tai của anh ấy rất to.
+感冒,gănmào,"cảm cúm, bị cảm",我感冒了，不舒服。,"Tôi bị cảm rồi, không khỏe."
+生病,shēngbìng,"bị bệnh, ốm",她生病了，沒來上課。,Cô ấy bị bệnh nên không đến lớp.
+餓,è,đói,我肚子好餓。,Bụng tôi đói quá.
+痛,tòng,đau,我的肚子很痛。,Bụng tôi rất đau.
+嘴巴/嘴,zuĭba/zuĭ,miệng,他的嘴巴很小。,Miệng của anh ấy rất nhỏ.
+病,bìng,bệnh,他有一點病。,Anh ấy hơi bị bệnh.
+看病,kànbìng,khám bệnh,我今天要去看病。,Hôm nay tôi phải đi khám bệnh.
+元,yuán,đồng (đơn vị tiền tệ),這本書一百元。,Quyển sách này một trăm đồng.
+鞋(子),xié(zi),giày,這雙鞋很好看。,Đôi giày này rất đẹp.
+衣服/衣,yīfú/yī,quần áo,我要買新衣服。,Tôi muốn mua quần áo mới.
+比,bĭ,so với,今天比昨天冷。,Hôm nay lạnh hơn hôm qua.
+要,yào,"muốn, cần",我要一杯咖啡。,Tôi muốn một ly cà phê.
+長,cháng,dài,她的頭髮很長。,Tóc của cô ấy rất dài.
+新,xīn,mới,這是我的新手機。,Đây là điện thoại mới của tôi.
+一樣,yīyàng,giống nhau,我們兩個人的想法一樣。,Suy nghĩ của hai chúng tôi giống nhau.
+見,jiàn,gặp,我們明天見。,Ngày mai chúng ta gặp nhau.
+看見,kànjiɑn,nhìn thấy,我看見他在公園跑步。,Tôi nhìn thấy anh ấy chạy bộ trong công viên.
+聽見,tīngjiàn,nghe thấy,你聽見了嗎？,Bạn có nghe thấy không?
+店,diàn,"cửa hàng, tiệm",這家店的東西很便宜。,Đồ ở cửa hàng này rất rẻ.
+短,duăn,ngắn,她剪了短頭髮。,Cô ấy đã cắt tóc ngắn.
+飽,băo,no,我吃飽了，謝謝。,"Tôi ăn no rồi, cảm ơn."
+舊,jiù,cũ,這是我的舊手機。,Đây là điện thoại cũ của tôi.
+像,xiàng,giống,這個孩子長得很像媽媽。,Đứa trẻ này trông rất giống mẹ.
+一共/共,yīgòng/gòng,tổng cộng,這些東西一共多少錢？,Những thứ này tổng cộng bao nhiêu tiền?
+夠,gòu,đủ,這些錢夠不夠？,Số tiền này có đủ không?
+筷(子),kuài(zi),đũa,請給我一雙筷子。,Cho tôi xin một đôi đũa.
+件,jiàn,"cái, chiếc (lượng từ)",我買了一件衣服。,Tôi đã mua một cái áo.
+杯,bēi,"ly, cốc (lượng từ)",我想喝一杯水。,Tôi muốn uống một ly nước.
+杯(子),bēi(zi),"cái cốc, cái ly",這個杯子是誰的？,Cái cốc này là của ai?
+菜,cài,"món ăn, rau",這道菜很好吃。,Món này rất ngon.
+肉,ròu,thịt,我不吃肉。,Tôi không ăn thịt.
+酒,jiŭ,rượu,他不喝酒。,Anh ấy không uống rượu.
+喝,hē,uống,你想喝什麼？,Bạn muốn uống gì?
+少,shăo,ít,今天學生比較少。,Hôm nay học sinh ít hơn.
+多,duō,nhiều,這裡的人很多。,Ở đây có rất nhiều người.
+小吃,xiăochī,"món ăn vặt, quà vặt",夜市有很多小吃。,Chợ đêm có rất nhiều món ăn vặt.
+牛奶,niúnăi,sữa bò,我每天喝牛奶。,Mỗi ngày tôi uống sữa.
+蛋,dàn,trứng,我早餐吃一個蛋。,Bữa sáng tôi ăn một quả trứng.
+餃(子),jiăo(zi),"sủi cảo, bánh chẻo",媽媽包的餃子很好吃。,Sủi cảo mẹ gói rất ngon.
+麵,miàn,mì,我想吃牛肉麵。,Tôi muốn ăn mì bò.
+湯,tāng,"canh, súp",這個湯很好喝。,Canh này rất ngon.
+包子,bāozi,bánh bao,我早上吃了兩個包子。,Sáng nay tôi đã ăn hai cái bánh bao.
+蛋糕,dàngāo,"bánh kem, bánh ngọt",今天是她的生日，我們買了蛋糕。,"Hôm nay là sinh nhật của cô ấy, chúng tôi đã mua bánh kem."
+麵包,miànbāo,bánh mì,我早餐吃麵包。,Bữa sáng tôi ăn bánh mì.
+水果,shuĭguŏ,"hoa quả, trái cây",我喜歡吃水果。,Tôi thích ăn trái cây.
+香蕉,xiāngjiāo,chuối,這根香蕉很甜。,Quả chuối này rất ngọt.
+食物,shíwù,"thức ăn, thực phẩm",這裡的食物很好吃。,Thức ăn ở đây rất ngon.
+飲料,yĭnliào,"đồ uống, thức uống",你要喝什麼飲料？,Bạn muốn uống đồ uống gì?
+果汁,guŏzhī,nước ép trái cây,我點了一杯果汁。,Tôi đã gọi một ly nước ép trái cây.
+甜,tián,ngọt,這個蛋糕很甜。,Bánh kem này rất ngọt.
+菜單,càidān,thực đơn,請給我菜單。,Cho tôi xin thực đơn.
+巧克力,qiăokèlì,sô cô la,我喜歡吃巧克力。,Tôi thích ăn sô cô la.
+碗,wăn,"cái bát, tô",我吃了一碗飯。,Tôi đã ăn một bát cơm.
+冰,bīng,"đá, băng",我要一杯冰水。,Tôi muốn một ly nước đá.
+一起,yīqĭ,cùng nhau,我們一起去吃飯吧。,Chúng ta cùng nhau đi ăn cơm nhé.
+因為,yīnwèi,bởi vì,因為下雨，所以我沒有出門。,Vì trời mưa nên tôi không ra ngoài.
+和,hé,và,我和媽媽一起去買東西。,Tôi và mẹ cùng đi mua đồ.
+所以,suŏyĭ,cho nên,我很累，所以想早點睡覺。,Tôi rất mệt nên muốn ngủ sớm.
+跟,gēn,với,我想跟你一起看電影。,Tôi muốn xem phim cùng với bạn.
+一定,yīdìng,nhất định,明天我一定會來。,Ngày mai tôi nhất định sẽ đến.
+可能,kěnéng,có thể,他可能不知道這件事。,Anh ấy có thể không biết việc này.
+邊/邊兒,biān/biānr,bên,我家在學校左邊。,Nhà tôi ở bên trái trường học.
+別,bié,đừng,別擔心，一切都會沒事的。,"Đừng lo lắng, mọi chuyện sẽ ổn thôi."
+馬上,măshàng,ngay lập tức,我馬上就到。,Tôi đến ngay bây giờ.
+然後,ránhòu,sau đó,我先吃飯，然後去上班。,"Tôi ăn cơm trước, sau đó đi làm."
+著,zhe,đang (trợ từ chỉ động tác tiếp diễn),她拿著一本書。,Cô ấy đang cầm một quyển sách.
+有點/有一點/有一點兒,yŏudiăn/yŏuyīdiăn/yŏuyīdiănr,hơi một chút,今天天氣有點熱。,Hôm nay thời tiết hơi nóng.
+零,líng,số không,我的電話號碼有一個零。,Số điện thoại của tôi có một số không.
+爺爺,yéye,ông nội,我爺爺今年七十歲。,Ông nội tôi năm nay bảy mươi tuổi.
+奶奶,năinai,bà nội,奶奶做的菜很好吃。,Món ăn bà nội nấu rất ngon.
+家庭,jiātíng,gia đình,我有一個幸福的家庭。,Tôi có một gia đình hạnh phúc.
+別人,biérén,người khác,別人的意見也很重要。,Ý kiến của người khác cũng rất quan trọng.
+大人,dàrén,người lớn,這件事要問大人。,Việc này phải hỏi người lớn.
+老人,lăorén,người già,公園裡有很多老人在運動。,Trong công viên có nhiều người già đang tập thể dục.
+年輕,niánqīng,trẻ trung,他看起來很年輕。,Anh ấy trông rất trẻ.
+男生,nánshēng,nam sinh,班上有十個男生。,Trong lớp có mười nam sinh.
+女生,nǚshēng,nữ sinh,那個女生是我的同學。,Cô gái đó là bạn học của tôi.
+號碼,hàomă,số hiệu,請給我你的電話號碼。,Hãy cho tôi số điện thoại của bạn.
+地址,dìzhĭ,địa chỉ,你的地址是什麼？,Địa chỉ của bạn là gì?
+市,shì,thành phố,我住在台北市。,Tôi sống ở thành phố Đài Bắc.
+名,míng,vị (lượng từ chỉ người),這班有三十名學生。,Lớp này có ba mươi học sinh.
+城市/城,chéngshì/chéng,thành phố,台北是一個很熱鬧的城市。,Đài Bắc là một thành phố rất nhộn nhịp.
+街,jiē,đường phố,這條街有很多商店。,Con phố này có nhiều cửa hàng.
+電子郵件,diànzĭyóujiàn,thư điện tử,請把資料寄到我的電子郵件。,Hãy gửi tài liệu đến email của tôi.
+禮拜,lĭbài,tuần lễ,我下禮拜要去日本旅行。,Tuần sau tôi sẽ đi du lịch Nhật Bản.
+從前,cóngqián,ngày xưa,從前這裡是一片田。,Ngày xưa nơi đây là một cánh đồng.
+剛剛/剛,gānggāng/gāng,vừa mới,他剛剛才到公司。,Anh ấy vừa mới đến công ty.
+一會兒/一會,yīhuĭr/yīhuĭ,một lát,請等一會兒。,Xin hãy đợi một lát.
+結婚,jiéhūn,kết hôn,他們去年結婚了。,Họ đã kết hôn vào năm ngoái.
+春天/春,chūntiān/chūn,mùa xuân,春天的花很漂亮。,Hoa mùa xuân rất đẹp.
+夏天/夏,xiàtiān/xià,mùa hè,夏天很熱。,Mùa hè rất nóng.
+秋天/秋,qiūtiān/qiū,mùa thu,秋天的天氣很涼爽。,Thời tiết mùa thu rất mát mẻ.
+冬天/冬,dōngtiān/dōng,mùa đông,冬天要穿很多衣服。,Mùa đông phải mặc nhiều quần áo.
+笑,xiào,cười,她笑得很開心。,Cô ấy cười rất vui vẻ.
+哭,kū,khóc,小孩子在哭。,Đứa trẻ đang khóc.
+高興,gāoxìng,vui mừng,認識你我很高興。,Rất vui được quen biết bạn.
+緊張,jĭnzhāng,căng thẳng,考試前我很緊張。,Trước khi thi tôi rất căng thẳng.
+可愛,kěài,đáng yêu,這隻小狗很可愛。,Con chó nhỏ này rất đáng yêu.
+生氣,shēngqì,tức giận,他為什麼生氣了？,Tại sao anh ấy tức giận vậy?
+難過,nánguò,buồn,聽到這個消息我很難過。,Nghe tin này tôi rất buồn.
+聰明,cōngmíng,thông minh,這個孩子很聰明。,Đứa trẻ này rất thông minh.
+相信,xiāngxìn,tin tưởng,我相信你可以做到。,Tôi tin bạn có thể làm được.
+經驗,jīngyàn,kinh nghiệm,他有很多教書的經驗。,Anh ấy có nhiều kinh nghiệm dạy học.
+辛苦,xīnkŭ,vất vả,工作了一天，大家都辛苦了。,"Làm việc cả ngày, mọi người đều vất vả rồi."
+願意,yuànyì,sẵn lòng,我願意幫助你。,Tôi sẵn lòng giúp đỡ bạn.
+習慣,xíguàn,thói quen,早睡早起是好習慣。,Ngủ sớm dậy sớm là thói quen tốt.
+當然,dāngrán,đương nhiên,你問我願不願意幫忙？當然願意！,Bạn hỏi tôi có sẵn lòng giúp không à? Đương nhiên là có!
+更,gèng,càng,今天比昨天更冷。,Hôm nay lạnh hơn hôm qua.
+醫院,yīyuàn,bệnh viện,我要去醫院看醫生。,Tôi phải đi bệnh viện khám bệnh.
+公司,gōngsī,công ty,我在一家公司上班。,Tôi làm việc ở một công ty.
+辦公室,bàngōngshì,văn phòng,他的辦公室在三樓。,Văn phòng của anh ấy ở tầng ba.
+工人,gōngrén,công nhân,這些工人正在蓋房子。,Những công nhân này đang xây nhà.
+護士,hùshì,y tá,護士每天照顧病人。,Y tá chăm sóc bệnh nhân mỗi ngày.
+司機,sījī,tài xế,司機開車很小心。,Tài xế lái xe rất cẩn thận.
+老闆/老板,lăobăn,ông chủ,老闆對員工很好。,Ông chủ rất tốt với nhân viên.
+上班,shàngbān,đi làm,我八點要上班。,Tôi phải đi làm lúc tám giờ.
+下班,xiàbān,tan làm,他六點下班。,Anh ấy tan làm lúc sáu giờ.
+能力,nénglì,năng lực,她有很好的能力。,Cô ấy có năng lực rất tốt.
+努力,nǔlì,nỗ lực,他很努力學習中文。,Anh ấy rất nỗ lực học tiếng Trung.
+準備,zhǔnbèi,chuẩn bị,我在準備明天的考試。,Tôi đang chuẩn bị cho kỳ thi ngày mai.
+打算,dăsuàn,dự định,你暑假打算做什麼？,Bạn dự định làm gì vào kỳ nghỉ hè?
+計畫/計劃,jìhuà,kế hoạch,我們有一個旅行計畫。,Chúng tôi có một kế hoạch du lịch.
+機會,jīhuì,cơ hội,這是一個好機會。,Đây là một cơ hội tốt.
+如果,rúguŏ,nếu như,如果明天下雨，我們就不去了。,"Nếu ngày mai trời mưa, chúng ta sẽ không đi."
+小學,xiăoxué,trường tiểu học,我弟弟還在念小學。,Em trai tôi vẫn đang học tiểu học.
+高中,gāozhōng,trường trung học phổ thông,我姊姊念高中三年級。,Chị tôi học lớp mười hai trung học.
+上學,shàngxué,đi học,我每天七點上學。,Tôi đi học lúc bảy giờ mỗi ngày.
+開學,kāixué,khai giảng,下星期學校就要開學了。,Tuần sau trường sẽ khai giảng.
+班,bān,lớp học,我們班有二十個學生。,Lớp chúng tôi có hai mươi học sinh.
+年級,niánjí,khối lớp,我妹妹讀三年級。,Em gái tôi học lớp ba.
+作業,zuòyè,bài tập,我今天有很多作業。,Hôm nay tôi có rất nhiều bài tập.
+成績,chéngjī,thành tích học tập,他的成績很好。,Thành tích học tập của anh ấy rất tốt.
+語言,yǔyán,ngôn ngữ,他會說三種語言。,Anh ấy biết nói ba ngôn ngữ.
+華語/華文,huáyǔ/huáwén,tiếng Hoa,我正在學華語。,Tôi đang học tiếng Hoa.
+黑板,hēibăn,bảng đen,老師在黑板上寫字。,Giáo viên viết chữ trên bảng đen.
+課本,kèběn,sách giáo khoa,請帶你的課本來上課。,Hãy mang sách giáo khoa đến lớp học.
+字典,zìdiăn,từ điển,我用字典查生詞。,Tôi dùng từ điển để tra từ mới.
+注意,zhùyì,chú ý,過馬路要注意安全。,Qua đường phải chú ý an toàn.
+讀書,dúshū,đọc sách,他每天晚上讀書。,Mỗi tối anh ấy đều đọc sách.
+回答,huídá,trả lời,請回答我的問題。,Hãy trả lời câu hỏi của tôi.
+答,dá,đáp,這一題你答對了。,Câu này bạn trả lời đúng rồi.
+句,jù,câu (lượng từ),請你說一句中文。,Hãy nói một câu tiếng Trung.
+圖,tú,hình vẽ,這張圖很漂亮。,Bức tranh này rất đẹp.
+部分(˙ㄈㄣ)/部份(˙ㄈㄣ),bùfen,phần,這只是一部分的問題。,Đây chỉ là một phần của vấn đề.
+想法,xiăngfă,ý nghĩ,我有一個新的想法。,Tôi có một ý nghĩ mới.
+學習,xuéxí,học tập,學習中文很有趣。,Học tập tiếng Trung rất thú vị.
+練習,liànxí,luyện tập,我每天練習寫字。,Tôi luyện tập viết chữ mỗi ngày.
+參加,cānjiā,tham gia,我想參加這個活動。,Tôi muốn tham gia hoạt động này.
+文化,wénhuà,văn hóa,台灣文化很有特色。,Văn hóa Đài Loan rất đặc sắc.
+認為,rènwéi,"cho rằng, nghĩ rằng",我認為這個方法很好。,Tôi cho rằng phương pháp này rất tốt.
+清楚,qīngchŭ,rõ ràng,老師說得很清楚。,Thầy giáo nói rất rõ ràng.
+決定,juédìng,quyết định,我決定明天去台北。,Tôi quyết định ngày mai đi Đài Bắc.
+記得,jìde,nhớ,你記得他的名字嗎？,Bạn có nhớ tên của anh ấy không?
+忘,wàng,quên,我忘了帶錢包。,Tôi quên mang ví tiền.
+棒,bàng,"giỏi, tuyệt",你唱歌唱得真棒！,Bạn hát hay thật tuyệt!
+行,xíng,"được, ổn",明天見面，行嗎？,"Ngày mai gặp nhau, được không?"
+講,jiăng,"nói, giảng",請你講慢一點。,Xin bạn nói chậm một chút.
+加,jiā,"thêm, cộng",三加二是五。,Ba cộng hai là năm.
+算,suàn,tính,你會算這個問題嗎？,Bạn có biết tính bài toán này không?
+交,jiāo,"nộp, giao",明天要交作業。,Ngày mai phải nộp bài tập.
+借,jiè,"mượn, cho mượn",我想跟你借一本書。,Tôi muốn mượn bạn một quyển sách.
+辦法,bànfă,"cách, biện pháp",我有辦法解決這個問題。,Tôi có cách giải quyết vấn đề này.
+方法,fāngfă,phương pháp,這是學中文的好方法。,Đây là phương pháp tốt để học tiếng Trung.
+有用,yŏuyòng,có ích,這本書對我很有用。,Quyển sách này rất có ích với tôi.
+進步,jìnbù,tiến bộ,你的中文進步很多。,Tiếng Trung của bạn tiến bộ rất nhiều.
+圖書館,túshūguăn,thư viện,我常常去圖書館看書。,Tôi thường đi thư viện đọc sách.
+洗手間/廁所,xĭshŏujiān/cèsuŏ,nhà vệ sinh,請問洗手間在哪裡？,Xin hỏi nhà vệ sinh ở đâu?
+宿舍,sùshè,ký túc xá,我住在學校的宿舍。,Tôi ở tại ký túc xá của trường.
+屋(子),wū(zi),"căn nhà, phòng",這間屋子很大。,Căn nhà này rất lớn.
+間,jiān,(lượng từ chỉ phòng/căn),我家有三間房間。,Nhà tôi có ba phòng.
+大樓,dàlóu,tòa nhà cao tầng,那棟大樓很高。,Tòa nhà đó rất cao.
+樓上,lóushàng,tầng trên,我的房間在樓上。,Phòng của tôi ở tầng trên.
+樓下,lóuxià,tầng dưới,廚房在樓下。,Bếp ở tầng dưới.
+樓梯,lóutī,cầu thang,請走樓梯上去。,Xin đi cầu thang lên trên.
+電梯,diàntī,thang máy,我們坐電梯下去吧。,Chúng ta đi thang máy xuống đi.
+廚房,chúfáng,nhà bếp,媽媽在廚房做飯。,Mẹ đang nấu cơm trong bếp.
+客廳,kètīng,phòng khách,客廳裡有一個大沙發。,Trong phòng khách có một chiếc ghế sofa lớn.
+窗(子)/窗戶(˙ㄏㄨ),chuāng(zi )/chuānghu,cửa sổ,請把窗戶打開。,Xin hãy mở cửa sổ ra.
+家具,jiājù,đồ nội thất,這些家具都很新。,Những đồ nội thất này đều rất mới.
+沙發,shāfā,ghế sofa,他坐在沙發上看電視。,Anh ấy ngồi trên ghế sofa xem tivi.
+盒/盒(子),hé/hézi,hộp,這個盒子裡有什麼？,Trong cái hộp này có gì?
+關,guān,"tắt, đóng",請關燈，謝謝。,"Xin tắt đèn, cảm ơn."
+燈,dēng,đèn,房間裡的燈很亮。,Đèn trong phòng rất sáng.
+冷氣(機),lěngqì(jī),"máy lạnh, điều hòa",房間裡有冷氣。,Trong phòng có máy lạnh.
+冰箱,bīngxiāng,tủ lạnh,牛奶在冰箱裡。,Sữa ở trong tủ lạnh.
+台,tái,(lượng từ chỉ máy móc),我家有兩台電腦。,Nhà tôi có hai chiếc máy tính.
+電,diàn,điện,這個房間沒有電。,Phòng này không có điện.
+乾淨,gānjìng,sạch sẽ,這個房間很乾淨。,Căn phòng này rất sạch sẽ.
+房租,fángzū,tiền thuê nhà,這個月的房租是多少錢？,Tiền thuê nhà tháng này là bao nhiêu?
+租,zū,thuê,我想租一間房子。,Tôi muốn thuê một căn nhà.
+世界,shìjiè,thế giới,我想去看看世界。,Tôi muốn đi xem thế giới.
+火,huŏ,lửa,小心，那裡有火！,"Cẩn thận, ở đó có lửa!"
+雪,xuě,tuyết,山上的雪很漂亮。,Tuyết trên núi rất đẹp.
+下雪,xiàxuě,tuyết rơi,冬天常常下雪。,Mùa đông thường hay có tuyết rơi.
+地,dì,đất,地上有很多樹葉。,Trên mặt đất có nhiều lá cây.
+河,hé,sông,這條河很長。,Con sông này rất dài.
+湖,hú,hồ,湖裡有很多魚。,Trong hồ có nhiều cá.
+馬,mă,ngựa,他喜歡騎馬。,Anh ấy thích cưỡi ngựa.
+鳥,niăo,chim,樹上有很多鳥。,Trên cây có nhiều chim.
+貓,māo,mèo,我家有一隻貓。,Nhà tôi có một con mèo.
+狗,gŏu,chó,那隻狗很可愛。,Con chó đó rất dễ thương.
+海,hăi,biển,夏天我們常去海邊玩。,Mùa hè chúng tôi thường đi biển chơi.
+草,căo,cỏ,公園裡有很多草。,Trong công viên có nhiều cỏ.
+樹,shù,cây,這棵樹很高。,Cây này rất cao.
+隻,zhī,(lượng từ chỉ con vật),我有一隻小狗。,Tôi có một con chó nhỏ.
+太陽,tàiyáng,mặt trời,今天太陽很大。,Hôm nay nắng rất to.
+洗,xĭ,"rửa, giặt",我每天洗衣服。,Tôi giặt quần áo mỗi ngày.
+洗澡,xĭzăo,tắm,我想先洗澡再睡覺。,Tôi muốn tắm trước rồi mới đi ngủ.
+有空/有空兒,yŏukòng/yŏukòngr,"rảnh, có thời gian rảnh",你明天有空嗎？,Ngày mai bạn có rảnh không?
+發現,fāxiàn,phát hiện,我發現這裡有一家好餐廳。,Tôi phát hiện ở đây có một nhà hàng ngon.
+餐,cān,bữa ăn,我們一起吃晚餐吧。,Chúng ta cùng ăn bữa tối đi.
+搬,bān,"dọn, chuyển (đồ, nhà)",下個月我要搬家。,Tháng sau tôi sẽ chuyển nhà.
+掛,guà,treo,牆上掛著一張照片。,Trên tường treo một tấm ảnh.
+脫,tuō,"cởi, tháo",進門前請脫鞋。,Trước khi vào cửa xin cởi giày.
+過年,guònián,"ăn Tết, đón năm mới",我們一家人一起過年。,Cả nhà chúng tôi cùng nhau đón Tết.
+新年,xīnnián,năm mới,新年快樂！,Chúc mừng năm mới!
+游泳,yóuyŏng,bơi lội,夏天我常常去游泳。,Mùa hè tôi thường hay đi bơi.
+跑/跑步,păo/păobù,"chạy, chạy bộ",他每天早上跑步。,Anh ấy chạy bộ mỗi sáng.
+踢,tī,đá,我們去踢足球吧。,Chúng ta đi đá bóng đi.
+足球,zúqiú,bóng đá,弟弟很喜歡踢足球。,Em trai rất thích đá bóng.
+籃球,lánqiú,bóng rổ,我們學校有籃球隊。,Trường chúng tôi có đội bóng rổ.
+網球,wăngqiú,"quần vợt, tennis",他星期天喜歡打網球。,Anh ấy thích chơi tennis vào Chủ nhật.
+棒球,bàngqiú,bóng chày,台灣人很喜歡看棒球比賽。,Người Đài Loan rất thích xem thi đấu bóng chày.
+比賽,bĭsài,"cuộc thi, thi đấu",明天有一場籃球比賽。,Ngày mai có một trận thi đấu bóng rổ.
+開始,kāishĭ,bắt đầu,電影快要開始了。,Bộ phim sắp bắt đầu rồi.
+騎,qí,"cưỡi, đi (xe đạp, xe máy)",我每天騎腳踏車上學。,Tôi đi xe đạp đến trường mỗi ngày.
+腳踏車/自行車,jiăotàchē/zìxíngchē,xe đạp,這輛腳踏車是我的。,Chiếc xe đạp này là của tôi.
+上網,shàngwăng,lên mạng,我喜歡在家上網。,Tôi thích lên mạng ở nhà.
+網路,wănglù,mạng internet,這裡的網路很快。,Mạng internet ở đây rất nhanh.
+網站,wăngzhàn,trang web,這個網站很有用。,Trang web này rất hữu ích.
+報紙,bàozhĭ,báo (giấy),爸爸每天看報紙。,Bố đọc báo mỗi ngày.
+次,cì,lần,我去過台灣兩次。,Tôi đã đến Đài Loan hai lần.
+電影院,diànyĭngyuàn,rạp chiếu phim,我們去電影院看電影吧。,Chúng ta đi rạp chiếu phim xem phim đi.
+部,bù,"(lượng từ chỉ phim, xe...)",這部電影很好看。,Bộ phim này rất hay.
+場,chăng,"(lượng từ chỉ buổi biểu diễn, trận đấu)",我看了一場精彩的比賽。,Tôi đã xem một trận đấu rất hấp dẫn.
+音樂,yīnyuè,âm nhạc,我喜歡聽音樂。,Tôi thích nghe nhạc.
+票,piào,vé,電影票多少錢？,Vé xem phim bao nhiêu tiền?
+活動,huódòng,hoạt động,學校今天有活動。,Hôm nay trường có hoạt động.
+故事(˙ㄕ),gùshi,câu chuyện,媽媽常常說故事給我聽。,Mẹ thường hay kể chuyện cho tôi nghe.
+聊天/聊天兒,liáotiān/liáotiānr,"trò chuyện, tán gẫu",我們常常在一起聊天。,Chúng tôi thường hay ngồi trò chuyện với nhau.
+有時候(˙ㄏㄡ)/有時,yŏushíhou/yŏushí,đôi khi,我有時候會去圖書館看書。,Đôi khi tôi hay đi thư viện đọc sách.
+平常,píngcháng,"bình thường, thường ngày",我平常七點起床。,Tôi thường ngày dậy lúc bảy giờ.
+總是,zŏngshì,luôn luôn,他總是很忙。,Anh ấy lúc nào cũng bận.
+已經,yĭjīng,"đã, rồi",我已經吃過飯了。,Tôi đã ăn cơm rồi.
+後來,hòulái,sau đó,後來他就搬家了。,Sau đó anh ấy đã chuyển nhà.
+各,gè,"mỗi, các",各位好，歡迎光臨。,"Xin chào mọi người, hoan nghênh đã đến."
+變,biàn,thay đổi,天氣變冷了。,Thời tiết đã trở lạnh.
+才,cái,mới (vừa),他昨天才回來。,Hôm qua anh ấy mới về.
+客人,kèrén,khách,家裡來了客人。,Nhà có khách đến.
+客氣(˙ㄑㄧ),kèqi,khách sáo,你太客氣了。,Bạn khách sáo quá rồi.
+不客氣,bùkèqì,không có gì (đáp lời cảm ơn),不客氣，這是我應該做的。,"Không có gì, đây là việc tôi nên làm."
+不好意思,bùhăoyìsi,"xin lỗi, ngại quá",不好意思，我遲到了。,"Xin lỗi, tôi đến muộn rồi."
+喂(ㄨㄟˊ),wéi,alô (nghe điện thoại),喂，請問王小姐在嗎？,"Alô, xin hỏi cô Vương có ở đó không?"
+喂,wèi,"này, ê (gọi ai đó)",喂，你在做什麼？,"Này, bạn đang làm gì vậy?"
+麻煩(˙ㄈㄢ),máfan,phiền phức,麻煩你幫我開門。,Phiền bạn mở cửa giúp tôi.
+禮物,lĭwù,quà tặng,這是我送你的禮物。,Đây là món quà tôi tặng bạn.
+歡迎,huānyíng,hoan nghênh,歡迎光臨！,Hoan nghênh quý khách!
+寄,jì,gửi (thư),我要寄一封信。,Tôi muốn gửi một lá thư.
+接,jiē,"đón, nhận",我去機場接你。,Tôi đi sân bay đón bạn.
+郵局,yóujú,bưu điện,郵局在銀行對面。,Bưu điện ở đối diện ngân hàng.
+銀行,yínháng,ngân hàng,我要去銀行換錢。,Tôi muốn đến ngân hàng đổi tiền.
+壞,huài,hỏng,我的手機壞了。,Điện thoại của tôi bị hỏng rồi.
+幫忙,bāngmáng,giúp đỡ,可以請你幫忙嗎？,Tôi có thể nhờ bạn giúp đỡ không?
+幫助,bāngzhù,sự giúp đỡ,謝謝你的幫助。,Cảm ơn sự giúp đỡ của bạn.
+小朋友,xiăopéngyŏu,trẻ nhỏ,這些小朋友很可愛。,Những đứa trẻ này rất đáng yêu.
+信,xìn,thư,我寫了一封信給媽媽。,Tôi đã viết một lá thư cho mẹ.
+信封,xìnfēng,phong bì,請把信放進信封裡。,Xin hãy bỏ thư vào phong bì.
+認識,rènshì,quen biết,很高興認識你。,Rất vui được quen biết bạn.
+最近,zuìjìn,gần đây,你最近好嗎？,Dạo này bạn khỏe không?
+聽說,tīngshuō,nghe nói,聽說明天會下雨。,Nghe nói ngày mai sẽ mưa.
+見面,jiànmiàn,gặp mặt,我們明天見面吧。,Chúng ta ngày mai gặp mặt nhé.
+事情,shìqíng,"việc, sự việc",我有一件事情要問你。,Tôi có một việc muốn hỏi bạn.
+幫,bāng,giúp,你可以幫我一下嗎？,Bạn có thể giúp tôi một chút không?
+錢包,qiánbāo,ví tiền,我的錢包不見了。,Ví tiền của tôi bị mất rồi.
+拉,lā,kéo,請拉這扇門。,Xin hãy kéo cánh cửa này.
+啊,ā,à (từ cảm thán),啊，你也在這裡！,"A, bạn cũng ở đây à!"
+怎麼辦,zěnmebàn,làm sao đây,錢包不見了，怎麼辦？,"Ví tiền bị mất rồi, phải làm sao đây?"
+車站,chēzhàn,trạm xe,車站離這裡很近。,Trạm xe cách đây rất gần.
+汽車,qìchē,ô tô,他有一輛新汽車。,Anh ấy có một chiếc ô tô mới.
+飛機場/機場,fēijīchăng/jīchăng,sân bay,我要去機場接朋友。,Tôi muốn đi sân bay đón bạn.
+馬路,mălù,đường phố,過馬路的時候要小心。,Khi qua đường phải cẩn thận.
+路口,lùkŏu,ngã đường,在路口右轉。,Rẽ phải ở ngã đường.
+十字路口,shízìlùkŏu,ngã tư,郵局在十字路口附近。,Bưu điện ở gần ngã tư.
+對面,duìmiàn,đối diện,銀行在學校對面。,Ngân hàng ở đối diện trường học.
+旅行,lǚxíng,du lịch,我很喜歡去旅行。,Tôi rất thích đi du lịch.
+飯店,fàndiàn,khách sạn,我們住在這家飯店。,Chúng tôi ở khách sạn này.
+旅館,lǚguăn,nhà nghỉ,這間旅館很便宜。,Nhà nghỉ này rất rẻ.
+袋子,dàizi,cái túi,請給我一個袋子。,Xin cho tôi một cái túi.
+參觀,cānguān,tham quan,我們去參觀博物館。,Chúng tôi đi tham quan viện bảo tàng.
+地圖,dìtú,bản đồ,你有這個城市的地圖嗎？,Bạn có bản đồ của thành phố này không?
+照相機/相機,zhàoxiàngjī/xiàngjī,máy ảnh,我買了一台新相機。,Tôi đã mua một cái máy ảnh mới.
+照相,zhàoxiàng,chụp ảnh,我們在這裡照相吧。,Chúng ta chụp ảnh ở đây nhé.
+照片/相片/相片兒,zhàopiàn/xiàngpiàn/xiàngpiànr,tấm ảnh,這張照片很漂亮。,Tấm ảnh này rất đẹp.
+風景,fēngjĭng,phong cảnh,這裡的風景很美。,Phong cảnh ở đây rất đẹp.
+南/南部,nán/nánbù,phía nam,我家在南部。,Nhà tôi ở miền nam.
+西/西部,xī/xībù,phía tây,太陽從西邊下山。,Mặt trời lặn ở phía tây.
+北/北部,běi/běibù,phía bắc,冬天北部比較冷。,Mùa đông miền bắc lạnh hơn.
+東/東部,dōng/dōngbù,phía đông,太陽從東邊出來。,Mặt trời mọc ở phía đông.
+中間,zhōngjiān,ở giữa,他坐在中間。,Anh ấy ngồi ở giữa.
+離,lí,cách (khoảng cách),學校離我家很近。,Trường học cách nhà tôi rất gần.
+離開,líkāi,rời khỏi,他明天要離開台灣。,Ngày mai anh ấy sẽ rời khỏi Đài Loan.
+經過,jīngguò,đi qua,我每天都經過這條路。,Mỗi ngày tôi đều đi qua con đường này.
+往,wăng,hướng về phía,往前走就到了。,Đi thẳng về phía trước là tới.
+送,sòng,tặng,他送我一本書。,Anh ấy tặng tôi một quyển sách.
+放,fàng,"đặt, để",請把書放在桌上。,Xin đặt sách lên bàn.
+近,jìn,gần,郵局離這裡很近。,Bưu điện cách đây rất gần.
+遠,yuăn,xa,學校離我家很遠。,Trường học cách nhà tôi rất xa.
+向,xiàng,hướng về phía,請向左轉。,Xin hãy rẽ trái.
+轉,zhuăn,"rẽ, quay",在路口向右轉。,Rẽ phải ở ngã đường.
+掉,diào,rơi mất (bổ nghĩa động từ),我的鑰匙掉了。,Chìa khóa của tôi bị rơi mất rồi.
+一直,yīzhí,"luôn luôn, mãi",你一直往前走就到了。,Bạn cứ đi thẳng về phía trước là tới.
+最後,zuìhòu,cuối cùng,最後我們決定坐公車去。,Cuối cùng chúng tôi quyết định đi xe buýt.
+病人,bìngrén,bệnh nhân,醫院裡有很多病人。,Trong bệnh viện có nhiều bệnh nhân.
+頭髮/髮,tóufă/fă,tóc,她的頭髮很長。,Tóc của cô ấy rất dài.
+手指(頭)/指頭,shŏuzhĭ(tou)/zhĭtou,ngón tay,我的手指受傷了。,Ngón tay của tôi bị thương rồi.
+肚(子),dù(zi),bụng,我肚子餓了。,Tôi đói bụng rồi.
+臉,liăn,mặt,她的臉很漂亮。,Khuôn mặt của cô ấy rất xinh đẹp.
+心,xīn,"tim, lòng",他的心很好。,Anh ấy có tấm lòng rất tốt.
+健康,jiànkāng,sức khỏe,祝你身體健康。,Chúc bạn sức khỏe dồi dào.
+渴,kě,khát,我很渴，想喝水。,"Tôi khát quá, muốn uống nước."
+舒服(˙ㄈㄨ),shūfu,thoải mái,這張床很舒服。,Chiếc giường này rất thoải mái.
+眼鏡,yănjìng,kính mắt,我戴眼鏡看書。,Tôi đeo kính để đọc sách.
+賣,mài,bán,這家店賣水果。,Cửa hàng này bán trái cây.
+付,fù,trả (tiền),我用信用卡付錢。,Tôi trả tiền bằng thẻ tín dụng.
+希望,xīwàng,hy vọng,我希望明天天氣好。,Tôi hy vọng ngày mai thời tiết tốt.
+書店,shūdiàn,hiệu sách,附近有一家書店。,Gần đây có một hiệu sách.
+商店,shāngdiàn,cửa hàng,這條街有很多商店。,Con phố này có nhiều cửa hàng.
+市場,shìchăng,chợ,媽媽去市場買菜。,Mẹ đi chợ mua rau.
+超級市場/超市,chāojíshìchăng/chāoshì,siêu thị,我去超市買東西。,Tôi đi siêu thị mua đồ.
+信用卡,xìnyòngkă,thẻ tín dụng,你可以用信用卡付錢。,Bạn có thể trả tiền bằng thẻ tín dụng.
+重要,zhòngyào,quan trọng,健康很重要。,Sức khỏe rất quan trọng.
+顏色,yánsè,màu sắc,你喜歡什麼顏色？,Bạn thích màu gì?
+黃色,huángsè,màu vàng,我喜歡黃色的衣服。,Tôi thích quần áo màu vàng.
+白色,báisè,màu trắng,她穿白色的衣服。,Cô ấy mặc quần áo màu trắng.
+手錶/手表/錶/表,shŏubiăo/biăo,đồng hồ đeo tay,這支手錶很貴。,Chiếc đồng hồ đeo tay này rất đắt.
+襪(子),wà(zi),"vớ, tất",我買了一雙新襪子。,Tôi đã mua một đôi tất mới.
+雙,shuāng,đôi (lượng từ),我要買一雙鞋子。,Tôi muốn mua một đôi giày.
+裙(子),qún(zi),váy,她穿了一件漂亮的裙子。,Cô ấy mặc một chiếc váy đẹp.
+褲(子),kù(zi),quần,這件褲子太長了。,Chiếc quần này quá dài.
+大衣,dàyī,áo khoác dài (áo choàng lớn),天氣很冷，我要穿大衣。,"Trời rất lạnh, tôi phải mặc áo khoác dài."
+帽(子),mào(zi),"mũ, nón",外面很熱，你應該戴帽子。,"Bên ngoài trời rất nóng, bạn nên đội mũ."
+皮包,píbāo,"túi da, ví da",這個皮包是我媽媽送我的。,Cái túi da này là mẹ tôi tặng tôi.
+外套,wàitào,áo khoác ngoài,下雨了，你要穿外套嗎？,"Trời mưa rồi, bạn có muốn mặc áo khoác không?"
+小心,xiăoxīn,cẩn thận,路上車很多，過馬路要小心。,"Trên đường có nhiều xe, qua đường phải cẩn thận."
+比較/較,bĭjiào/jiào,"so sánh; tương đối, hơn",這件衣服比較貴，那件比較便宜。,"Chiếc áo này đắt hơn, chiếc kia rẻ hơn."
+差不多,chabùduō,"gần như, xấp xỉ",我們兩個人的身高差不多。,Chiều cao của hai chúng tôi gần như bằng nhau.
+戴,dài,"đội, đeo (mũ, kính, đồng hồ...)",他每天都戴眼鏡。,Anh ấy ngày nào cũng đeo kính.
+試,shì,thử,你可以試試看這件衣服。,Bạn có thể thử chiếc áo này xem sao.
+輕,qīng,nhẹ,這個包包很輕，我可以自己拿。,"Cái túi này rất nhẹ, tôi có thể tự cầm."
+重,zhòng,nặng,這本書很重，我拿不動。,"Cuốn sách này rất nặng, tôi không cầm nổi."
+樣子,yàngzi,"hình dáng, kiểu dáng, vẻ ngoài",這件衣服的樣子很好看。,Kiểu dáng của chiếc áo này rất đẹp.
+特別,tèbié,đặc biệt,今天是我特別的日子。,Hôm nay là ngày đặc biệt của tôi.
+簡單,jiăndān,đơn giản,這個問題很簡單，我會回答。,"Câu hỏi này rất đơn giản, tôi sẽ trả lời được."
+其他/其它,qítā,"khác, cái khác",除了這個，你還需要其他東西嗎？,"Ngoài cái này ra, bạn còn cần thứ gì khác không?"
+聲音/聲,shēngyīn,"âm thanh, tiếng",外面的聲音很大，我睡不著。,"Tiếng ồn bên ngoài rất to, tôi không ngủ được."
+好像,hăoxiàng,"hình như, giống như",他好像不在家。,Hình như anh ấy không có ở nhà.
+奇怪,qíguài,kỳ lạ,這件事很奇怪，我不懂。,"Chuyện này rất kỳ lạ, tôi không hiểu."
+三明治,sānmíngzhì,bánh sandwich,我早餐吃三明治。,Tôi ăn sáng bằng bánh sandwich.
+漢堡,hànbăo,bánh hamburger,我想吃一個漢堡。,Tôi muốn ăn một cái hamburger.
+蘋果,píngguŏ,quả táo,我每天吃一個蘋果。,Mỗi ngày tôi ăn một quả táo.
+西瓜,xīguā,dưa hấu,夏天吃西瓜很舒服。,Mùa hè ăn dưa hấu rất dễ chịu.
+啤酒,píjiŭ,bia,他喜歡喝啤酒。,Anh ấy thích uống bia.
+紅茶,hóngchá,hồng trà,我要一杯紅茶，謝謝。,"Cho tôi một ly hồng trà, cảm ơn."
+點心,diănxīn,"món tráng miệng, điểm tâm",下午茶時間，我們吃一點點心吧。,"Đến giờ trà chiều rồi, chúng ta ăn chút điểm tâm đi."
+冰淇淋,bīngqílín,kem,小孩子都喜歡吃冰淇淋。,Trẻ con đều thích ăn kem.
+青菜,qīngcài,rau xanh,你要多吃青菜，才會健康。,Bạn phải ăn nhiều rau xanh mới khỏe mạnh.
+糖,táng,"đường, kẹo",咖啡裡不要加糖。,Đừng cho đường vào cà phê.
+叉(子),chā(zi),cái nĩa,請給我一支叉子。,Làm ơn đưa cho tôi một cái nĩa.
+刀(子),dāo(zi),con dao,這把刀子很利。,Con dao này rất sắc.
+湯匙,tāngchí,thìa/muỗng canh,喝湯要用湯匙。,Uống canh phải dùng thìa.
+盤/盤(子),pán(zi),cái đĩa,桌上有一個盤子。,Trên bàn có một cái đĩa.
+片,piàn,"lát, miếng (đơn vị)",我要一片麵包。,Tôi muốn một lát bánh mì.
+瓶/瓶(子),píng(zi),"cái chai, lọ",我買了一瓶水。,Tôi đã mua một chai nước.
+支,zhī,"cây, chiếc (đơn vị đếm vật dài)",請給我一支筆。,Làm ơn đưa cho tôi một cây bút.
+份,fèn,"phần, suất",我要點一份牛肉麵。,Tôi muốn gọi một phần mì bò.
+道,dào,món (đơn vị đếm món ăn),今天晚餐有三道菜。,Bữa tối hôm nay có ba món.
+一半/一半兒,yībàn/yībànr,một nửa,這個蛋糕給你一半。,Cái bánh này cho bạn một nửa.
+味道,wèidào,"mùi vị, hương vị",這道菜的味道很好。,Món ăn này có hương vị rất ngon.
+酸,suān,chua,這個水果很酸。,Loại trái cây này rất chua.
+苦,kŭ,đắng,這杯咖啡太苦了。,Ly cà phê này đắng quá.
+鹹,xián,mặn,這道菜太鹹了。,Món ăn này mặn quá.
+辣,là,cay,我不敢吃辣的東西。,Tôi không dám ăn đồ cay.
+香,xiāng,thơm,這杯咖啡很香。,Ly cà phê này rất thơm.
+條,tiáo,"dải, con (đơn vị đếm vật dài)",我想買一條褲子。,Tôi muốn mua một chiếc quần.
+種,zhŏng,"loại, giống",這種水果我沒吃過。,Loại trái cây này tôi chưa ăn bao giờ.
+包,bāo,"gói, bao (đơn vị); túi",我買了一包餅乾。,Tôi đã mua một gói bánh quy.
+全部,quánbù,"toàn bộ, tất cả",這些東西全部都是我的。,Những thứ này toàn bộ đều là của tôi.
+所有,suŏyŏu,"tất cả, mọi",所有的學生都到了。,Tất cả học sinh đều đã đến.
+需要,xūyào,"cần, cần thiết",你需要幫忙嗎？,Bạn có cần giúp đỡ không?
+烤,kăo,nướng,我喜歡吃烤肉。,Tôi thích ăn thịt nướng.
+但是/但,dànshì/dàn,nhưng,我很累，但是我還要工作。,"Tôi rất mệt, nhưng tôi vẫn phải làm việc."
+或是,huòshì,hoặc là,你要喝茶或是咖啡？,Bạn muốn uống trà hay là cà phê?
+要是,yàoshì,nếu như,要是明天下雨，我們就不去了。,"Nếu ngày mai trời mưa, chúng ta sẽ không đi nữa."
+把,bă,"(giới từ đưa tân ngữ lên trước động từ); cái, cây (lượng từ)",請把門關上。,Làm ơn đóng cửa lại.
+被,bèi,bị (giới từ chỉ bị động),我的錢包被偷了。,Ví tiền của tôi bị lấy trộm rồi.
+讓,ràng,"để cho, khiến cho",媽媽讓我早點回家。,Mẹ bảo tôi về nhà sớm.
+雖然,suīrán,"tuy, mặc dù",雖然下雨，我還是要出門。,"Mặc dù trời mưa, tôi vẫn phải ra ngoài."
+那麼,nàme,"như thế, vậy thì; đến thế (mức độ)",天氣沒有那麼冷。,Thời tiết không lạnh đến thế.
+這麼,zhème,"như thế này, đến mức này",你怎麼這麼晚才來？,Sao bạn lại đến muộn thế này?
+本來,běnlái,"vốn dĩ, ban đầu",我本來想去，但是後來沒去。,"Ban đầu tôi định đi, nhưng sau đó lại không đi."
+啦,la,"(trợ từ ngữ khí, nhấn mạnh)",好啦，我知道了。,"Được rồi, tôi biết rồi."
+呀,yā,"(trợ từ ngữ khí, biểu thị ngạc nhiên/thân mật)",你來了呀！,Bạn đến rồi à!
+以為,yĭwéi,"tưởng là, cứ nghĩ là",我以為今天是星期五。,Tôi cứ tưởng hôm nay là thứ Sáu.
+有的,yŏude,"có người, có cái (một số)",有的人喜歡喝茶，有的人喜歡喝咖啡。,"Có người thích uống trà, có người thích uống cà phê."
+替,tì,"thay, thay cho",我可以替你做這件事。,Tôi có thể làm việc này thay bạn.
+一下(子)/一下子兒,yīxià(zi)/yīxiàzir,"một lát, một chút",請等我一下。,Xin hãy đợi tôi một chút.
+不過,bùguò,"nhưng, tuy nhiên",這件衣服很好看，不過有點貴。,"Chiếc áo này rất đẹp, nhưng hơi đắt."
+出生,chūshēng,"sinh ra, chào đời",我在台北出生。,Tôi sinh ra ở Đài Bắc.
+不同,bùtóng,"khác nhau, không giống nhau",我們兩個人的想法不同。,Suy nghĩ của hai chúng tôi khác nhau.
+住址,zhùzhĭ,địa chỉ nhà,請寫下你的住址。,Xin hãy viết địa chỉ nhà của bạn xuống.
+母語,mǔyǔ,tiếng mẹ đẻ,我的母語是越南語。,Tiếng mẹ đẻ của tôi là tiếng Việt.
+表,biăo,đồng hồ đeo tay,這支表是爸爸給我的。,Cái đồng hồ này là bố cho tôi.
+鐘,zhōng,đồng hồ (treo tường/để bàn),牆上有一個鐘。,Trên tường có một cái đồng hồ.
+鐘/時鐘,zhōng/shízhōng,đồng hồ,房間裡的時鐘停了。,Cái đồng hồ trong phòng đã ngừng chạy.
+傳真,chuánzhēn,"máy fax, bản fax",請把資料傳真給我。,Xin hãy fax tài liệu cho tôi.
+白天(˙ㄊㄧㄢ),báitian,ban ngày,我白天工作，晚上休息。,"Ban ngày tôi làm việc, buổi tối tôi nghỉ ngơi."
+半夜,bànyè,nửa đêm,他半夜還在看書。,Nửa đêm anh ấy vẫn đang đọc sách.
+夜晚,yèwăn,ban đêm,夜晚的天空很漂亮。,Bầu trời ban đêm rất đẹp.
+日子,rìzi,"ngày tháng, cuộc sống",我們的日子過得很快樂。,Ngày tháng của chúng tôi trôi qua rất vui vẻ.
+夜,yè,đêm,今夜的月亮很圓。,Đêm nay trăng rất tròn.
+春季,chūnjì,mùa xuân,春季的天氣很舒服。,Thời tiết mùa xuân rất dễ chịu.
+時,shí,"thời, lúc, khi",到時我會打電話給你。,Đến lúc đó tôi sẽ gọi điện cho bạn.
+不久,bùjiŭ,"chẳng bao lâu, không lâu sau",他不久就要回國了。,Chẳng bao lâu nữa anh ấy sẽ về nước.
+剛才,gāngcái,"vừa nãy, lúc nãy",剛才是誰打電話來？,Vừa nãy ai gọi điện đến vậy?
+早點,zăodiăn,sớm hơn một chút,明天請早點來。,Ngày mai xin hãy đến sớm hơn một chút.
+正好,zhènghăo,"vừa đúng, vừa vặn",這雙鞋子的大小正好。,Kích cỡ đôi giày này vừa đúng.
+年紀,niánjì,tuổi tác,他的年紀跟我差不多。,Tuổi của anh ấy xấp xỉ tuổi tôi.
+男人,nánrén,đàn ông,那個男人是我爸爸。,Người đàn ông đó là bố tôi.
+女人,nǚrén,phụ nữ,那個女人是我媽媽。,Người phụ nữ đó là mẹ tôi.
+父親,fùqīn,"cha, bố (trang trọng)",我父親是老師。,Cha tôi là giáo viên.
+母親,mǔqīn,mẹ (trang trọng),我母親很會做菜。,Mẹ tôi rất giỏi nấu ăn.
+父母,fùmŭ,cha mẹ,我很愛我的父母。,Tôi rất yêu cha mẹ của tôi.
+外公,wàigōng,ông ngoại,我外公住在台南。,Ông ngoại tôi sống ở Đài Nam.
+外婆,wàipó,bà ngoại,我外婆做的菜很好吃。,Món ăn bà ngoại tôi nấu rất ngon.
+伯伯(˙ㄅㄛ)/伯,bóbo/bó,bác trai (anh của bố),這是我伯伯，他人很好。,"Đây là bác trai của tôi, bác ấy rất tốt bụng."
+伯父,bófù,bác trai (anh của bố),我伯父住在台北。,Bác trai tôi sống ở Đài Bắc.
+伯母,bómŭ,bác gái (vợ của bác),伯母做的菜很好吃。,Món ăn bác gái nấu rất ngon.
+叔叔(˙ㄕㄨ)/叔,shúshu/shú,chú (em trai của bố),叔叔常常來我家玩。,Chú tôi thường đến nhà tôi chơi.
+姑姑(˙ㄍㄨ),gūgu,cô (em gái của bố),姑姑買了禮物給我。,Cô tôi mua quà tặng tôi.
+孫女,sūnnǚ,cháu gái,奶奶很疼她的孫女。,Bà rất thương cháu gái của mình.
+孫子,sūnzi,cháu trai,爺爺常帶孫子去公園。,Ông thường đưa cháu trai đi công viên.
+關係,guānxì,mối quan hệ,我們的關係很好。,Mối quan hệ của chúng tôi rất tốt.
+害怕,hàipà,sợ hãi,我很害怕黑暗。,Tôi rất sợ bóng tối.
+開心,kāixīn,vui vẻ,今天我很開心。,Hôm nay tôi rất vui.
+擔心,dānxīn,lo lắng,媽媽很擔心我。,Mẹ rất lo lắng cho tôi.
+傷心,shāngxīn,"buồn, đau lòng",他走了，我很傷心。,"Anh ấy đi rồi, tôi rất buồn."
+美麗,měilì,xinh đẹp,這裡的風景很美麗。,Phong cảnh ở đây rất đẹp.
+帥,shuài,đẹp trai,他長得很帥。,Anh ấy trông rất đẹp trai.
+笨,bèn,"ngốc, ngu",我今天忘記帶書，真笨。,"Hôm nay tôi quên mang sách, thật là ngốc."
+認真,rènzhēn,"nghiêm túc, chăm chỉ",他學習很認真。,Anh ấy học rất chăm chỉ.
+敢,găn,dám,我不敢一個人去。,Tôi không dám đi một mình.
+急,jí,"gấp, vội",你不要那麼急。,Bạn đừng vội vàng như vậy.
+禮貌,lĭmào,"lịch sự, lễ phép",他對人很有禮貌。,Anh ấy rất lịch sự với mọi người.
+害羞,hàixiū,xấu hổ,她看到陌生人就害羞。,Cô ấy thấy người lạ là xấu hổ.
+關心,guānxīn,quan tâm,老師很關心學生。,Thầy giáo rất quan tâm học sinh.
+心情,xīnqíng,tâm trạng,今天我的心情不太好。,Hôm nay tâm trạng tôi không tốt lắm.
+幸福,xìngfú,hạnh phúc,我們一家人很幸福。,Gia đình chúng tôi rất hạnh phúc.
+差,cha,"kém, tệ",我的中文還很差。,Tiếng Trung của tôi vẫn còn kém.
+兄弟,xiōngdì,anh em,我們是兄弟。,Chúng tôi là anh em.
+阿姨,āyí,dì (cô lớn tuổi),阿姨在廚房煮飯。,Dì đang nấu cơm trong bếp.
+身邊,shēnbiān,bên cạnh,他一直在我身邊。,Anh ấy luôn ở bên cạnh tôi.
+身高,shēngāo,chiều cao,你的身高是多少?,Chiều cao của bạn là bao nhiêu?
+長大,zhăngdà,lớn lên,我長大以後想當醫生。,Sau khi lớn lên tôi muốn làm bác sĩ.
+經理,jīnglĭ,giám đốc,他是這家公司的經理。,Anh ấy là giám đốc của công ty này.
+教書,jiāoshū,dạy học,我媽媽在學校教書。,Mẹ tôi dạy học ở trường.
+開會,kāihuì,họp,我們下午要開會。,Chiều nay chúng tôi phải họp.
+加班,jiābān,làm thêm giờ,他常常加班到很晚。,Anh ấy thường làm thêm giờ đến rất khuya.
+危險,wéixiăn,nguy hiểm,開車太快很危險。,Lái xe quá nhanh rất nguy hiểm.
+安全,ānquán,an toàn,這裡很安全。,Ở đây rất an toàn.
+成功,chénggōng,thành công,祝你成功。,Chúc bạn thành công.
+報告,bàogào,báo cáo,我明天要交報告。,Ngày mai tôi phải nộp báo cáo.
+資料,zīliào,tài liệu,我需要一些資料。,Tôi cần một số tài liệu.
+管理,guănlĭ,quản lý,他負責管理這家店。,Anh ấy phụ trách quản lý cửa hàng này.
+做法/作法,zuòfă,cách làm,這道菜的做法很簡單。,Cách làm món ăn này rất đơn giản.
+看法,kànfă,"quan điểm, cách nhìn",你對這件事有什麼看法?,Bạn có quan điểm gì về việc này?
+辦,bàn,làm (xử lý việc),我要去銀行辦事。,Tôi phải đi ngân hàng làm việc.
+打工,dăgōng,làm thêm (bán thời gian),我週末在餐廳打工。,Cuối tuần tôi làm thêm ở nhà hàng.
+選,xuăn,chọn,你要選哪一個?,Bạn muốn chọn cái nào?
+嚴重,yánzhòng,nghiêm trọng,這個問題很嚴重。,Vấn đề này rất nghiêm trọng.
+正式,zhèngshì,chính thức,明天是我正式上班的日子。,Ngày mai là ngày tôi chính thức đi làm.
+查,chá,tra cứu,我上網查資料。,Tôi lên mạng tra tài liệu.
+考,kăo,thi,明天我要考試。,Ngày mai tôi phải thi.
+例如,lìrú,ví dụ như,我喜歡水果，例如蘋果和香蕉。,"Tôi thích trái cây, ví dụ như táo và chuối."
+例(子),lì(zi),ví dụ,老師舉了一個例子。,Thầy giáo đã đưa ra một ví dụ.
+題目,tímù,đề bài,這個題目很難。,Đề bài này rất khó.
+題,tí,câu hỏi (đề bài),這一題我不會。,Câu này tôi không biết làm.
+答案,dáàn,đáp án,你知道答案嗎?,Bạn có biết đáp án không?
+念書/唸書,niànshū,học bài,他在圖書館念書。,Anh ấy học bài trong thư viện.
+歷史,lìshĭ,lịch sử,我對歷史很有興趣。,Tôi rất có hứng thú với lịch sử.
+數學,shùxué,toán học,數學是我最喜歡的科目。,Toán học là môn tôi thích nhất.
+書法,shūfă,thư pháp,他星期六去學書法。,Thứ bảy anh ấy đi học thư pháp.
+英語,yīngyǔ,tiếng Anh,她會說英語。,Cô ấy biết nói tiếng Anh.
+作文,zuòwén,tập làm văn,老師今天教我們寫作文。,Hôm nay thầy giáo dạy chúng tôi viết văn.
+漢字,hànzì,chữ Hán,這個漢字怎麼寫?,Chữ Hán này viết như thế nào?
+詞,cí,từ vựng,這個詞是什麼意思?,Từ này nghĩa là gì?
+文法,wénfă,ngữ pháp,中文的文法不太難。,Ngữ pháp tiếng Trung không quá khó.
+加上,jiāshàng,cộng thêm,三加上五等於八。,Ba cộng với năm bằng tám.
+減,jiăn,trừ,十減三等於七。,Mười trừ ba bằng bảy.
+乘,chéng,nhân,二乘三等於六。,Hai nhân ba bằng sáu.
+除,chú,chia,十除以二等於五。,Mười chia hai bằng năm.
+國小,guóxiăo,trường tiểu học,我弟弟還在讀國小。,Em trai tôi vẫn đang học tiểu học.
+中學,zhōngxué,trường trung học,我在中學學過法文。,Tôi đã học tiếng Pháp ở trường trung học.
+學院,xuéyuàn,học viện,這是商學院的大樓。,Đây là tòa nhà của khoa kinh doanh.
+大學生,dàxuéshēng,sinh viên đại học,我是大學生。,Tôi là sinh viên đại học.
+教授,jiàoshòu,giáo sư,這位教授很有名。,Vị giáo sư này rất nổi tiếng.
+放假,fàngjià,được nghỉ,我們下星期放假。,Tuần sau chúng tôi được nghỉ.
+春假,chūnjià,kỳ nghỉ xuân,春假我要去旅行。,Kỳ nghỉ xuân tôi sẽ đi du lịch.
+暑假,shŭjià,kỳ nghỉ hè,暑假我要打工。,Kỳ nghỉ hè tôi sẽ đi làm thêm.
+寒假,hánjià,kỳ nghỉ đông,寒假我要回家。,Kỳ nghỉ đông tôi sẽ về nhà.
+假,jià,kỳ nghỉ,我明天請假。,Ngày mai tôi xin nghỉ phép.
+畢業,bìyè,tốt nghiệp,我明年畢業。,Sang năm tôi tốt nghiệp.
+學期,xuéqí,học kỳ,這學期我修五門課。,Học kỳ này tôi học năm môn.
+服務,fúwù,phục vụ,這家餐廳的服務很好。,Dịch vụ của nhà hàng này rất tốt.
+室友,shìyŏu,bạn cùng phòng,我的室友很友善。,Bạn cùng phòng của tôi rất thân thiện.
+操場,cāochăng,sân vận động,我們在操場打球。,Chúng tôi chơi bóng ở sân vận động.
+校園,xiàoyuán,khuôn viên trường,這個校園很漂亮。,Khuôn viên trường này rất đẹp.
+位子,wèizi,chỗ ngồi,這個位子有人坐嗎?,Chỗ ngồi này có ai ngồi chưa?
+書桌,shūzhuō,bàn học,我的書桌上有很多書。,Trên bàn học của tôi có nhiều sách.
+書包,shūbāo,cặp sách,我的書包很重。,Cặp sách của tôi rất nặng.
+書架,shūjià,kệ sách,書架上放了很多書。,Trên kệ sách để rất nhiều sách.
+本子,běnzi,quyển vở,請把答案寫在本子上。,Hãy viết đáp án vào vở.
+尺,chĭ,thước kẻ,請借我一把尺。,Cho tôi mượn một cái thước.
+討論,tăolùn,thảo luận,我們來討論這個問題。,Chúng ta hãy thảo luận vấn đề này.
+同意,tóngyì,đồng ý,我同意你的看法。,Tôi đồng ý với quan điểm của bạn.
+了解/瞭解,liăojiě,hiểu rõ,我不了解這個問題。,Tôi không hiểu vấn đề này.
+無聊,wúliáo,buồn chán,這部電影很無聊。,Bộ phim này rất nhàm chán.
+有趣,yŏuqù,thú vị,這本書很有趣。,Cuốn sách này rất thú vị.
+有意思(˙ㄙ),yŏuyìsi,thú vị,這個故事很有意思。,Câu chuyện này rất thú vị.
+原因,yuányīn,nguyên nhân,你知道原因嗎?,Bạn có biết nguyên nhân không?
+遍,biàn,lần (số lượt),這本書我看了兩遍。,Cuốn sách này tôi đã đọc hai lần rồi.
+改,găi,"sửa, sửa đổi",老師幫我改作業。,Giáo viên giúp tôi sửa bài tập.
+忘記,wàngjì,quên,我忘記帶雨傘了。,Tôi quên mang ô rồi.
+程度,chéngdù,"trình độ, mức độ",他的中文程度很好。,Trình độ tiếng Trung của anh ấy rất tốt.
+趕快,gănkuài,"nhanh lên, mau lên",趕快出門吧，要遲到了。,"Nhanh lên ra cửa đi, sắp muộn rồi."
+以上,yĭshàng,trở lên,十八歲以上才可以喝酒。,Từ mười tám tuổi trở lên mới được uống rượu.
+以下,yĭxià,trở xuống,五歲以下的小孩不用買票。,Trẻ em từ năm tuổi trở xuống không cần mua vé.
+意見,yìjiàn,ý kiến,你對這件事有什麼意見？,Bạn có ý kiến gì về việc này?
+用功,yònggōng,chăm chỉ học,他很用功，每天都念書。,"Anh ấy rất chăm chỉ, ngày nào cũng học bài."
+研究,yánjiù,nghiên cứu,他在大學研究歷史。,Anh ấy nghiên cứu lịch sử ở đại học.
+教育,jiàoyù,giáo dục,教育很重要。,Giáo dục rất quan trọng.
+選擇,xuănzé,lựa chọn,我不知道該選擇哪一個。,Tôi không biết nên chọn cái nào.
+建議,jiànyì,"đề nghị, gợi ý",你可以給我一些建議嗎？,Bạn có thể cho tôi vài gợi ý không?
+知識,zhīshì,kiến thức,讀書可以增加知識。,Đọc sách có thể tăng thêm kiến thức.
+座,zuò,"tòa, ngọn (lượng từ)",那座山很高。,Ngọn núi đó rất cao.
+臥室,wòshì,phòng ngủ,我的臥室在二樓。,Phòng ngủ của tôi ở tầng hai.
+臥房,wòfáng,phòng ngủ,這間臥房很乾淨。,Phòng ngủ này rất sạch sẽ.
+浴室,yùshì,phòng tắm,浴室裡有一條毛巾。,Trong phòng tắm có một chiếc khăn mặt.
+院(子),yuàn(zi),sân,院子裡有很多花。,Trong sân có rất nhiều hoa.
+書房,shūfáng,"phòng đọc sách, thư phòng",爸爸在書房看書。,Bố đang đọc sách trong thư phòng.
+洗衣機,xĭyījī,máy giặt,我用洗衣機洗衣服。,Tôi dùng máy giặt để giặt quần áo.
+餐桌,cānzhuō,bàn ăn,餐桌上有很多菜。,Trên bàn ăn có rất nhiều món ăn.
+打開,dăkāi,mở ra,請打開窗戶。,Làm ơn mở cửa sổ ra.
+箱/箱(子),xiāng/xiāng(zi),"cái hộp, thùng",這個箱子很重。,Cái hộp này rất nặng.
+層,céng,tầng,我家在五層樓。,Nhà tôi ở tầng năm.
+櫃(子),guì(zi),tủ,衣服放在櫃子裡。,Quần áo để trong tủ.
+大門,dàmén,"cổng lớn, cửa chính",大門還沒開。,Cổng lớn vẫn chưa mở.
+鄰居,línjū,hàng xóm,我的鄰居人很好。,Hàng xóm của tôi rất tốt bụng.
+熱鬧(˙ㄋㄠ),rènao,"nhộn nhịp, náo nhiệt",過年的時候夜市很熱鬧。,Vào dịp Tết chợ đêm rất nhộn nhịp.
+吵,chăo,ồn ào,外面太吵了，我睡不著。,"Bên ngoài ồn quá, tôi không ngủ được."
+亂,luàn,lộn xộn,我的房間很亂。,Phòng của tôi rất lộn xộn.
+房東,fángdōng,chủ nhà,房東每個月來收房租。,Chủ nhà mỗi tháng đến thu tiền thuê nhà.
+房屋,fángwū,nhà cửa,這附近的房屋都很貴。,Nhà cửa gần đây đều rất đắt.
+搬家,bānjiā,chuyển nhà,下個月我要搬家。,Tháng sau tôi sẽ chuyển nhà.
+開水,kāishuĭ,nước sôi,請給我一杯開水。,Làm ơn cho tôi một ly nước sôi.
+鄉下,xiāngxià,nông thôn,我奶奶住在鄉下。,Bà tôi sống ở nông thôn.
+傘,săn,cái ô,下雨了，記得帶傘。,"Trời mưa rồi, nhớ mang ô theo."
+朵,duŏ,đóa (lượng từ hoa),她買了一朵花。,Cô ấy đã mua một đóa hoa.
+蚊(子),wén(zi),muỗi,夏天蚊子很多。,Mùa hè muỗi rất nhiều.
+自然,zìrán,tự nhiên,我喜歡大自然。,Tôi thích thiên nhiên.
+月亮,yuèliàng,mặt trăng,今天晚上的月亮很圓。,Trăng đêm nay rất tròn.
+星星,xīngxing,ngôi sao,晚上可以看到很多星星。,Buổi tối có thể nhìn thấy rất nhiều ngôi sao.
+環境,huánjìng,môi trường,這裡的環境很安靜。,Môi trường ở đây rất yên tĩnh.
+晴天,qíngtiān,trời nắng,明天是晴天。,Ngày mai trời nắng.
+暖和,nuănhuo,ấm áp,今天天氣很暖和。,Hôm nay thời tiết rất ấm áp.
+涼快,liángkuài,mát mẻ,晚上比較涼快。,Buổi tối mát mẻ hơn.
+涼,liáng,"mát, nguội",這杯水已經涼了。,Ly nước này đã nguội rồi.
+乾,gān,khô,衣服還沒乾。,Quần áo vẫn chưa khô.
+濕/溼,shī,ướt,我的衣服濕了。,Quần áo của tôi bị ướt rồi.
+度,dù,độ,今天氣溫三十度。,Hôm nay nhiệt độ ba mươi độ.
+颱風,táifēng,bão,颱風要來了。,Bão sắp đến rồi.
+季節,jìjié,mùa,你喜歡哪個季節？,Bạn thích mùa nào?
+環保,huánbăo,bảo vệ môi trường,我們應該重視環保。,Chúng ta nên coi trọng việc bảo vệ môi trường.
+垃圾,lèsè,rác,請把垃圾拿出去丟。,Làm ơn mang rác ra ngoài vứt.
+汙染,wūrăn,ô nhiễm,空氣汙染很嚴重。,Ô nhiễm không khí rất nghiêm trọng.
+底,dĭ,đáy,杯子底有一點水。,Đáy cốc có một chút nước.
+底下(˙ㄒㄧㄚ),dĭxia,phía dưới,貓在桌子底下。,Con mèo ở dưới gầm bàn.
+內,nèi,bên trong,三天內要交作業。,Trong vòng ba ngày phải nộp bài tập.
+深,shēn,sâu,這條河很深。,Con sông này rất sâu.
+淺,qiăn,"nông, cạn",這裡的水很淺。,Nước ở đây rất nông.
+發生,fāshēng,xảy ra,昨天發生了一件事。,Hôm qua đã xảy ra một chuyện.
+照顧,zhàogù,chăm sóc,媽媽在家照顧小孩。,Mẹ ở nhà chăm sóc con nhỏ.
+生活,shēnghuó,cuộc sống,我很喜歡這裡的生活。,Tôi rất thích cuộc sống ở đây.
+日記,rìjì,nhật ký,我每天都寫日記。,Tôi ngày nào cũng viết nhật ký.
+流,liú,chảy,河水一直往前流。,Nước sông cứ chảy về phía trước.
+流汗,liúhàn,đổ mồ hôi,運動以後我流了很多汗。,Sau khi vận động tôi đổ rất nhiều mồ hôi.
+夢,mèng,giấc mơ,我昨天做了一個夢。,Hôm qua tôi đã mơ một giấc mơ.
+枕頭(˙ㄊㄡ),zhěntou,cái gối,我喜歡軟一點的枕頭。,Tôi thích gối mềm một chút.
+鬧鐘,nàozhōng,đồng hồ báo thức,我每天早上七點鬧鐘會響。,Mỗi sáng bảy giờ đồng hồ báo thức của tôi sẽ kêu.
+拖鞋,tuōxié,dép lê,進門請換拖鞋。,Vào nhà làm ơn đổi sang dép lê.
+毛巾,máojīn,khăn mặt,這條毛巾是我的。,Chiếc khăn mặt này là của tôi.
+刷(子) / 刷,shuā(zi)/shuā,"bàn chải, đánh răng",我每天刷兩次牙。,Mỗi ngày tôi đánh răng hai lần.
+肥皂,féizào,xà phòng,洗手要用肥皂。,Rửa tay phải dùng xà phòng.
+牙膏,yágāo,kem đánh răng,牙膏用完了。,Kem đánh răng dùng hết rồi.
+衛生紙,wèishēngzhĭ,giấy vệ sinh,桌上有衛生紙。,Trên bàn có giấy vệ sinh.
+籃(子),lán(zi),"cái giỏ, rổ",她提著一個籃子。,Cô ấy xách một cái giỏ.
+假日,jiàrì,"ngày nghỉ, ngày lễ",假日我常常在家休息。,Vào ngày nghỉ tôi thường ở nhà nghỉ ngơi.
+結束,jiéshù,kết thúc,電影已經結束了。,Bộ phim đã kết thúc rồi.
+完,wán,"xong, hết",我吃完飯了。,Tôi đã ăn xong cơm rồi.
+散步,sànbù,đi dạo,晚飯後我喜歡去公園散步。,Sau bữa tối tôi thích đi dạo ở công viên.
+慢跑,mànpăo,chạy bộ,他每天早上慢跑三十分鐘。,Mỗi sáng anh ấy chạy bộ ba mươi phút.
+野餐,yěcān,dã ngoại,星期天我們去公園野餐。,Chủ nhật chúng tôi đi dã ngoại ở công viên.
+爬,pá,"leo, bò",小狗喜歡爬樓梯。,Chú chó con thích leo cầu thang.
+拍,pāi,"vỗ, chụp",他喜歡拍照。,Anh ấy thích chụp ảnh.
+抓,zhuā,"bắt, nắm",貓在抓老鼠。,Con mèo đang bắt chuột.
+座位,zuòwèi,chỗ ngồi,這是我的座位。,Đây là chỗ ngồi của tôi.
+新聞,xīnwén,tin tức,我每天早上看新聞。,Mỗi sáng tôi xem tin tức.
+體育,tĭyù,thể dục thể thao,他很喜歡體育。,Anh ấy rất thích thể dục thể thao.
+經常,jīngcháng,thường xuyên,我經常去圖書館看書。,Tôi thường xuyên đi thư viện đọc sách.
+雜誌,zázhì,tạp chí,她在看一本雜誌。,Cô ấy đang xem một cuốn tạp chí.
+美術,měishù,mỹ thuật,我對美術很有興趣。,Tôi rất có hứng thú với mỹ thuật.
+畫家,huàjiā,họa sĩ,他是一位有名的畫家。,Anh ấy là một họa sĩ nổi tiếng.
+興趣,xìngqù,"sở thích, hứng thú",你的興趣是什麼？,Sở thích của bạn là gì?
+收,shōu,"thu, cất",請幫我收一下衣服。,Làm ơn giúp tôi thu quần áo vào.
+談,tán,"nói chuyện, bàn luận",我們可以談一談嗎？,Chúng ta có thể nói chuyện một chút không?
+聊,liáo,trò chuyện,我很想跟你聊聊。,Tôi rất muốn trò chuyện với bạn.
+遲到,chídào,"đến muộn, đi trễ",對不起，我遲到了。,"Xin lỗi, tôi đến muộn rồi."
+樂器,yuèqì,nhạc cụ,你會彈什麼樂器？,Bạn biết chơi nhạc cụ gì?
+吉他,jítā,đàn guitar,他每天練習吉他。,Anh ấy luyện tập đàn guitar mỗi ngày.
+可怕,kěpà,đáng sợ,這部電影很可怕。,Bộ phim này rất đáng sợ.
+輕鬆,qīngsōng,"nhẹ nhàng, thoải mái",這個工作很輕鬆。,Công việc này rất nhẹ nhàng.
+情形,qíngxíng,tình hình,現在的情形不太好。,Tình hình hiện tại không tốt lắm.
+消息,xiāoxí,tin tức,我聽到一個好消息。,Tôi nghe được một tin tốt.
+看起來,kànqĭlái,trông có vẻ,她看起來很累。,Cô ấy trông có vẻ rất mệt.
+舞,wŭ,điệu múa,她跳舞跳得很好。,Cô ấy nhảy múa rất giỏi.
+游,yóu,bơi,魚在水裡游。,Cá bơi trong nước.
+游泳池,yóuyŏngchí,hồ bơi,我們去游泳池游泳吧。,Chúng ta đi hồ bơi bơi lội đi.
+遊戲,yóuxì,trò chơi,小孩子喜歡玩遊戲。,Trẻ con thích chơi trò chơi.
+茶館/茶館兒,cháguăn/cháguănr,quán trà,我們常去茶館喝茶聊天。,Chúng tôi thường đến quán trà uống trà và trò chuyện.
+門票,ménpiào,vé vào cửa,這裡的門票很貴。,Vé vào cửa ở đây rất đắt.
+陪,péi,"đi cùng, tháp tùng",我陪媽媽去醫院。,Tôi đi cùng mẹ đến bệnh viện.
+利用,lìyòng,tận dụng,我們應該利用時間學習。,Chúng ta nên tận dụng thời gian để học tập.
+好處,hăochù,lợi ích,運動對身體有好處。,Tập thể dục có lợi cho sức khỏe.
+壞處,huàichù,tác hại,抽菸對身體有壞處。,Hút thuốc có hại cho sức khỏe.
+目的,mùdì,mục đích,你學中文的目的是什麼？,Mục đích bạn học tiếng Trung là gì?
+要求,yāoqiú,yêu cầu,老師對學生的要求很高。,Giáo viên có yêu cầu rất cao đối với học sinh.
+合作,hézuò,hợp tác,我們可以一起合作。,Chúng ta có thể cùng nhau hợp tác.
+主人,zhǔrén,chủ nhà,主人請我們喝茶。,Chủ nhà mời chúng tôi uống trà.
+請客,qĭngkè,"mời khách, đãi khách",今天我請客！,Hôm nay tôi mời khách!
+約,yuē,hẹn,我跟朋友約好八點見面。,Tôi đã hẹn bạn tôi gặp nhau lúc tám giờ.
+約會,yuēhuì,"cuộc hẹn, hẹn hò",他今晚有約會。,Tối nay anh ấy có cuộc hẹn.
+派對,pàiduì,buổi tiệc,我們要去參加派對。,Chúng tôi sắp đi dự tiệc.
+祝,zhù,chúc,祝你生日快樂！,Chúc bạn sinh nhật vui vẻ!
+留,liú,để lại,他留了一張紙條給我。,Anh ấy để lại cho tôi một mảnh giấy.
+封,fēng,lượng từ dùng cho thư,我寫了一封信給他。,Tôi đã viết một bức thư cho anh ấy.
+信箱,xìnxiāng,hộp thư,請把信放進信箱。,Xin hãy bỏ thư vào hộp thư.
+郵票,yóupiào,tem thư,這張郵票很漂亮。,Con tem này rất đẹp.
+回信,huíxìn,thư trả lời,我還沒收到他的回信。,Tôi vẫn chưa nhận được thư trả lời của anh ấy.
+郵件,yóujiàn,"thư từ, bưu kiện",我每天都要檢查電子郵件。,Ngày nào tôi cũng phải kiểm tra email.
+弄,nòng,"làm, xử lý",你把我的東西弄丟了。,Bạn đã làm mất đồ của tôi rồi.
+放心,fàngxīn,yên tâm,你放心，我會照顧好他的。,"Bạn cứ yên tâm, tôi sẽ chăm sóc tốt cho anh ấy."
+偷,tōu,ăn trộm,有人偷了我的錢包。,Có người đã ăn cắp ví của tôi.
+滿,măn,đầy,這杯水太滿了。,Ly nước này đầy quá.
+丟,diū,làm mất,我把手機丟了。,Tôi đã làm mất điện thoại rồi.
+換,huàn,"đổi, thay",我想換一件衣服。,Tôi muốn thay một bộ quần áo khác.
+一塊/一塊兒,yīkuài/yīkuàir,cùng nhau,我們一塊兒去吃飯吧。,Chúng ta cùng nhau đi ăn cơm đi.
+同時,tóngshí,đồng thời,他可以同時做兩件事。,Anh ấy có thể làm hai việc cùng một lúc.
+保護,băohù,bảo vệ,我們應該保護環境。,Chúng ta nên bảo vệ môi trường.
+出門,chūmén,ra ngoài,下雨了，出門要帶傘。,"Trời mưa rồi, ra ngoài phải mang theo ô."
+現代,xiàndài,hiện đại,現代人常常用手機。,Người hiện đại thường xuyên dùng điện thoại.
+傳統,chuántŏng,truyền thống,這是我們的傳統節日。,Đây là ngày lễ truyền thống của chúng tôi.
+除夕,chúxì,đêm giao thừa,除夕的時候，全家人會一起吃飯。,"Vào đêm giao thừa, cả nhà sẽ cùng nhau ăn cơm."
+春節,chūnjié,Tết Nguyên Đán,春節是中國最重要的節日。,Tết Nguyên Đán là ngày lễ quan trọng nhất của Trung Quốc.
+節日,jiérì,ngày lễ,中秋節是一個重要的節日。,Tết Trung Thu là một ngày lễ quan trọng.
+帶來,dàilái,mang lại,這件事給我帶來很多麻煩。,Việc này đã mang lại cho tôi rất nhiều phiền phức.
+當中,dāngzhōng,trong số,這些學生當中，他最聰明。,"Trong số những học sinh này, anh ấy thông minh nhất."
+法律,fălǜ,pháp luật,我們都要遵守法律。,Chúng ta đều phải tuân thủ pháp luật.
+方面,fāngmiàn,phương diện,在學習方面，他很努力。,"Về phương diện học tập, anh ấy rất chăm chỉ."
+開玩笑,kāiwánxiào,"đùa giỡn, nói đùa",別生氣，我只是開玩笑。,"Đừng giận, tôi chỉ đùa thôi."
+可惜,kěxí,đáng tiếc,可惜他今天不能來。,Thật đáng tiếc là hôm nay anh ấy không thể đến.
+老太太(˙ㄊㄞ),lăotàitai,"bà lão, cụ bà",那位老太太每天都去公園散步。,Bà cụ đó ngày nào cũng đi dạo công viên.
+有名,yŏumíng,nổi tiếng,這家餐廳很有名。,Nhà hàng này rất nổi tiếng.
+自由,zìyóu,tự do,我喜歡自由的生活。,Tôi thích cuộc sống tự do.
+社會,shèhuì,xã hội,這是一個很複雜的社會問題。,Đây là một vấn đề xã hội rất phức tạp.
+時差,shíchā,chênh lệch múi giờ,台灣跟美國有時差。,Đài Loan và Mỹ có chênh lệch múi giờ.
+市區,shìqū,khu nội thành,我家離市區很近。,Nhà tôi ở gần khu trung tâm thành phố.
+溫泉,wēnquán,suối nước nóng,冬天泡溫泉很舒服。,Mùa đông ngâm suối nước nóng rất thoải mái.
+公路,gōnglù,đường cao tốc,這條公路很長。,Con đường cao tốc này rất dài.
+速度,sùdù,tốc độ,開車的速度不能太快。,Tốc độ lái xe không được quá nhanh.
+到處,dàochù,khắp nơi,到處都是人。,Khắp nơi đều là người.
+地點,dìdiăn,địa điểm,我們約好見面的地點。,Chúng tôi đã hẹn địa điểm gặp mặt.
+巴士,bāshì,xe buýt,我每天搭巴士上班。,Ngày nào tôi cũng đi xe buýt đi làm.
+加油,jiāyóu,"đổ xăng, cổ vũ",我們先去加油，再出發。,"Chúng ta đi đổ xăng trước, rồi mới xuất phát."
+摩托車/機車,mótuōchē/jīchē,xe máy,在台灣，很多人騎機車上班。,"Ở Đài Loan, nhiều người đi xe máy đi làm."
+船/船兒,chuán/chuánr,"thuyền, tàu",我們坐船去看海。,Chúng tôi đi thuyền ra biển ngắm cảnh.
+地鐵,dìtiě,tàu điện ngầm,我每天搭地鐵去上班。,Ngày nào tôi cũng đi tàu điện ngầm đi làm.
+捷運,jiéyùn,tàu điện ngầm (MRT),在台北，捷運很方便。,"Ở Đài Bắc, đi MRT rất tiện lợi."
+停車場,tíngchēchăng,bãi đỗ xe,附近有一個停車場。,Gần đây có một bãi đỗ xe.
+月台,yuètái,sân ga,我在月台等火車。,Tôi đang đợi tàu ở sân ga.
+搭,dā,đi (phương tiện),我們搭公車去學校。,Chúng tôi đi xe buýt đến trường.
+飛,fēi,bay,小鳥在天上飛。,Con chim nhỏ đang bay trên trời.
+下,xià,xuống,請在下一站下車。,Xin hãy xuống xe ở trạm tiếp theo.
+上,shàng,lên,我們現在上車吧。,Bây giờ chúng ta lên xe đi.
+這些,zhèxiē,những cái này,這些書都是我的。,Những quyển sách này đều là của tôi.
+那些,nàxiē,những cái kia,那些人是誰？,Những người đó là ai vậy?
+東方,dōngfāng,phương Đông,太陽從東方升起。,Mặt trời mọc từ phương Đông.
+非洲,fēizhōu,châu Phi,非洲有很多國家。,Châu Phi có rất nhiều quốc gia.
+美洲,měizhōu,châu Mỹ,美洲有南北兩個部分。,Châu Mỹ có hai phần Nam và Bắc.
+歐洲,ōuzhōu,châu Âu,我明年想去歐洲旅行。,Sang năm tôi muốn đi du lịch châu Âu.
+亞洲,yàzhōu,châu Á,台灣在亞洲。,Đài Loan nằm ở châu Á.
+大陸,dàlù,đại lục,中國大陸很大。,Đại lục Trung Quốc rất rộng lớn.
+動,dòng,cử động,你別動！,Bạn đừng động đậy!
+起,qĭ,"dậy, bắt đầu",從現在起，我要好好用功。,"Từ bây giờ trở đi, tôi sẽ chăm chỉ học hành."
+停,tíng,dừng lại,車子突然停了。,Chiếc xe đột nhiên dừng lại.
+中心,zhōngxīn,trung tâm,這裡是市中心。,Đây là trung tâm thành phố.
+簽證,qiānzhèng,visa,去美國需要簽證。,Đi Mỹ cần phải có visa.
+行李,xínglĭ,hành lý,我的行李很重。,Hành lý của tôi rất nặng.
+背包,bēibāo,ba lô,他背著背包去旅行。,Anh ấy đeo ba lô đi du lịch.
+鎖,suŏ,khóa,請把門鎖好。,Xin hãy khóa cửa cẩn thận.
+入口,rùkŏu,lối vào,入口在這邊。,Lối vào ở phía này.
+出口,chūkŏu,lối ra,這裡是出口。,Đây là lối ra.
+油,yóu,dầu ăn,我不喜歡吃太油的菜。,Tôi không thích ăn món ăn quá nhiều dầu mỡ.
+鑰匙,yàoshi,chìa khóa,我忘了帶鑰匙。,Tôi quên mang chìa khóa.
+方向,fāngxiàng,phương hướng,我不知道去車站的方向。,Tôi không biết phương hướng đến nhà ga.
+交通,jiāotōng,giao thông,這裡的交通很方便。,Giao thông ở đây rất thuận tiện.
+標準,biāozhŭn,"tiêu chuẩn, chuẩn",他的中文發音很標準。,Phát âm tiếng Trung của anh ấy rất chuẩn.
+拍照,pāizhào,chụp ảnh,我們在這裡拍照吧。,Chúng ta chụp ảnh ở đây đi.
+腿,tuĭ,"chân, đùi",我的腿很痛。,Chân tôi rất đau.
+背,bèi,lưng,他的背很痛。,Lưng anh ấy rất đau.
+脖(子),bó(zi),cổ,我的脖子很痛。,Cổ tôi rất đau.
+汗,hàn,mồ hôi,天氣很熱，我流了很多汗。,"Trời rất nóng, tôi ra nhiều mồ hôi."
+臉色,liănsè,sắc mặt,你的臉色不太好。,Sắc mặt của bạn không tốt lắm.
+救護車,jiùhùchē,xe cứu thương,快叫救護車！,Nhanh gọi xe cứu thương đi!
+咳嗽,késòu,ho,他一直咳嗽。,Anh ấy cứ ho mãi.
+發燒,fāshāo,sốt,我發燒了，不能上班。,"Tôi bị sốt, không thể đi làm."
+頭痛,tóutòng,đau đầu,我今天頭痛。,Hôm nay tôi bị đau đầu.
+疼,téng,đau,我的肚子很疼。,Bụng tôi rất đau.
+保險,băoxiăn,bảo hiểm,我有買保險。,Tôi có mua bảo hiểm.
+掛號,guàhào,đăng ký khám bệnh,我要去醫院掛號。,Tôi phải đến bệnh viện đăng ký khám.
+牙刷,yáshuā,bàn chải đánh răng,我忘了帶牙刷。,Tôi quên mang bàn chải đánh răng.
+藥房,yàofáng,hiệu thuốc,附近有藥房嗎？,Gần đây có hiệu thuốc không?
+救命,jiùmìng,"cứu mạng, cứu với",救命啊！,Cứu với!
+影響,yĭngxiăng,ảnh hưởng,睡不好會影響健康。,Ngủ không ngon sẽ ảnh hưởng đến sức khỏe.
+感覺,gănjué,"cảm giác, cảm thấy",我感覺很累。,Tôi cảm thấy rất mệt.
+精神,jīngshén,tinh thần,他今天很有精神。,Hôm nay anh ấy rất tràn đầy sức sống.
+正常,zhèngcháng,bình thường,這是正常的現象。,Đây là hiện tượng bình thường.
+花,huā,tiêu (tiền),我花了很多錢。,Tôi đã tiêu rất nhiều tiền.
+有錢,yŏuqián,giàu có,他很有錢。,Anh ấy rất giàu.
+生意,shēngyì,"việc buôn bán, kinh doanh",他的生意做得很好。,Việc kinh doanh của anh ấy rất tốt.
+商人,shāngrén,thương nhân,他是一個商人。,Anh ấy là một thương nhân.
+老闆娘/老板娘,lăobănniáng,bà chủ,老闆娘人很好。,Bà chủ rất tốt bụng.
+店員,diànyuán,nhân viên cửa hàng,店員很熱情。,Nhân viên cửa hàng rất nhiệt tình.
+訂,dìng,đặt trước,我想訂一個房間。,Tôi muốn đặt một phòng.
+訂位,dìngwèi,đặt chỗ,我要訂位。,Tôi muốn đặt chỗ.
+得到,dédào,nhận được,他得到了獎學金。,Anh ấy đã nhận được học bổng.
+困難,kùnnán,khó khăn,學中文有一點困難。,Học tiếng Trung có một chút khó khăn.
+百貨公司,băihuògōngsī,trung tâm bách hóa,我們去百貨公司買衣服。,Chúng ta đi trung tâm bách hóa mua quần áo.
+夜市,yèshì,chợ đêm,台灣的夜市很有名。,Chợ đêm Đài Loan rất nổi tiếng.
+逛,guàng,đi dạo,我喜歡逛公園。,Tôi thích đi dạo trong công viên.
+逛街,guàngjiē,"đi dạo phố, mua sắm",星期天我常常去逛街。,Chủ nhật tôi thường đi dạo phố.
+排隊,páiduì,xếp hàng,大家都在排隊買票。,Mọi người đều đang xếp hàng mua vé.
+客滿,kèmăn,"hết chỗ, đầy khách",這家餐廳客滿了。,Nhà hàng này đã hết chỗ.
+刷卡,shuākă,quẹt thẻ,我可以刷卡嗎？,Tôi có thể quẹt thẻ được không?
+提,tí,xách,我幫你提東西。,Tôi giúp bạn xách đồ.
+流行,liúxíng,thịnh hành,這種衣服很流行。,Loại quần áo này rất thịnh hành.
+藍色,lánsè,màu xanh dương,我喜歡藍色。,Tôi thích màu xanh dương.
+綠色,lǜsè,màu xanh lá,這件衣服是綠色的。,Chiếc áo này màu xanh lá.
+紅色,hóngsè,màu đỏ,她穿紅色的衣服。,Cô ấy mặc quần áo màu đỏ.
+黑色,hēisè,màu đen,我喜歡黑色的鞋子。,Tôi thích giày màu đen.
+毛衣,máoyī,áo len,冬天要穿毛衣。,Mùa đông phải mặc áo len.
+雨衣,yŭyī,áo mưa,下雨了，要穿雨衣。,"Trời mưa rồi, phải mặc áo mưa."
+內衣,nèiyī,áo lót,這裡有賣內衣。,Ở đây có bán áo lót.
+上衣,shàngyī,áo (phần trên),這件上衣很好看。,Chiếc áo này rất đẹp.
+皮鞋,píxié,giày da,他穿皮鞋上班。,Anh ấy mang giày da đi làm.
+手套,shŏutào,găng tay,冬天我戴手套。,Mùa đông tôi đeo găng tay.
+口袋,kŏudài,"túi áo, túi quần",我的鑰匙在口袋裡。,Chìa khóa của tôi ở trong túi.
+小費,xiăofèi,"tiền boa, tiền tip",這裡要付小費嗎？,Ở đây có phải trả tiền boa không?
+打折,dăzhé,giảm giá,這件衣服打折了。,Chiếc áo này được giảm giá rồi.
+零錢,língqián,tiền lẻ,我沒有零錢。,Tôi không có tiền lẻ.
+零用錢,língyòngqián,tiền tiêu vặt,媽媽每個月給我零用錢。,Mỗi tháng mẹ cho tôi tiền tiêu vặt.
+存,cún,"gửi tiết kiệm, tích lũy",我每個月存一點錢。,Mỗi tháng tôi tiết kiệm một ít tiền.
+毛,máo,hào (đơn vị tiền),一塊錢等於十毛。,Một đồng bằng mười hào.
+高級,gāojí,cao cấp,這是一家高級餐廳。,Đây là một nhà hàng cao cấp.
+一般,yībān,"bình thường, thông thường",他的成績很一般。,Thành tích của anh ấy rất bình thường.
+合適,héshì,phù hợp,這雙鞋子不太合適。,Đôi giày này không phù hợp lắm.
+適合,shìhé,"thích hợp, phù hợp",這個顏色很適合你。,Màu này rất hợp với bạn.
+圓,yuán,tròn,月亮是圓的。,Mặt trăng thì tròn.
+光,guāng,ánh sáng,這裡沒有光，很暗。,"Ở đây không có ánh sáng, rất tối."
+死,sĭ,chết,我的貓死了。,Con mèo của tôi đã chết.
+髒,zāng,bẩn,你的衣服很髒。,Quần áo của bạn rất bẩn.
+破,pò,"rách, hỏng",我的鞋子破了。,Giày của tôi bị rách rồi.
+袋,dài,túi,給我一個袋子。,Cho tôi một cái túi.
+套,tào,bộ (lượng từ),我買了一套衣服。,Tôi đã mua một bộ quần áo.
+沙拉,shālā,"xà lách, salad",我想吃沙拉。,Tôi muốn ăn salad.
+牛排,niúpái,bít tết,我要一份牛排。,Tôi muốn một phần bít tết.
+海鮮,hăixiān,hải sản,我喜歡吃海鮮。,Tôi thích ăn hải sản.
+火腿,huŏtuĭ,giăm bông,三明治裡有火腿。,Trong bánh sandwich có giăm bông.
+熱狗,règŏu,"xúc xích, hot dog",我想吃熱狗。,Tôi muốn ăn xúc xích.
+饅頭,mántou,bánh màn thầu,早餐我吃饅頭。,Bữa sáng tôi ăn bánh màn thầu.
+米,mĭ,gạo,我們家還有很多米。,Nhà chúng tôi vẫn còn nhiều gạo.
+豆腐(˙ㄈㄨ),dòufu,đậu phụ,我喜歡吃豆腐。,Tôi thích ăn đậu phụ.
+橘(子),jú(zi ),quả quýt,我喜歡吃橘子。,Tôi thích ăn quýt.
+葡萄(˙ㄊㄠ),pútao,nho,這些葡萄很甜。,Những quả nho này rất ngọt.
+芒果,mángguŏ,xoài,芒果很好吃。,Xoài rất ngon.
+烏龍茶,wūlóngchá,trà ô long,我想喝烏龍茶。,Tôi muốn uống trà ô long.
+豆漿,dòujiāng,sữa đậu nành,早餐我喝豆漿。,Bữa sáng tôi uống sữa đậu nành.
+可樂,kělè,"cô ca, coca",我要一杯可樂。,Tôi muốn một ly cô ca.
+奶茶,năichá,trà sữa,我想喝珍珠奶茶。,Tôi muốn uống trà sữa trân châu.
+汽水,qìshuĭ,nước ngọt có ga,天氣熱，我想喝汽水。,"Trời nóng, tôi muốn uống nước ngọt có ga."
+冰塊/冰塊兒,bīngkuài/bīngkuàir,đá viên,請給我一杯水，不要冰塊。,"Xin cho tôi một ly nước, không cần đá."
+甜點,tiándiăn,món tráng miệng,飯後我想吃甜點。,Sau bữa ăn tôi muốn ăn món tráng miệng.
+餅乾,bĭnggān,bánh quy,這個餅乾很好吃。,Bánh quy này rất ngon.
+鹽,yán,muối,請幫我加一點鹽。,Xin giúp tôi cho thêm một chút muối.
+味/味兒,wèi/wèir,mùi vị,這是什麼味兒？,Đây là mùi gì vậy?
+聞,wén,ngửi,我聞到了花的香味。,Tôi ngửi thấy mùi thơm của hoa.
+臭,chòu,"thối, hôi",這雙鞋子好臭！,Đôi giày này thật hôi!
+口,kŏu,miệng; ngụm (lượng từ),我喝了一口水。,Tôi uống một ngụm nước.
+罐,guàn,"cái lon, cái hũ",桌上有一罐果醬。,Trên bàn có một hũ mứt.
+顆,kē,"quả, viên, hạt (lượng từ)",我吃了一顆蘋果。,Tôi đã ăn một quả táo.
+任何,rènhé,"bất kỳ, bất cứ",任何人都可以參加。,Bất kỳ ai cũng có thể tham gia.
+許多,xǔduō,"nhiều, rất nhiều",公園裡有許多花。,Trong công viên có rất nhiều hoa.
+新鮮(˙ㄒㄧㄢ),xīnxian,"tươi, tươi mới",這些水果很新鮮。,Những loại trái cây này rất tươi.
+熟,shóu,"chín; quen thuộc, thành thạo",這個西瓜還沒熟。,Quả dưa hấu này chưa chín.
+炒,chăo,xào,媽媽在炒青菜。,Mẹ đang xào rau.
+炸,zhá,"chiên, rán",我喜歡吃炸雞。,Tôi thích ăn gà chiên.
+嚐/嘗,cháng,nếm thử,你要不要嚐嚐這道菜？,Bạn có muốn nếm thử món này không?
+裝,zhuāng,"đóng, đựng (vào)",請把水裝進瓶子裡。,Hãy đổ nước vào chai.
+不用,bùyòng,không cần,你不用擔心。,Bạn không cần lo lắng.
+不但,bùdàn,không những,他不但聰明，而且努力。,Anh ấy không những thông minh mà còn chăm chỉ.
+不必,bùbì,"không cần phải, không nhất thiết",你不必這麼客氣。,Bạn không cần phải khách sáo như vậy.
+不得了,bùdéliăo,"cực kỳ, ghê gớm, không chịu nổi",今天熱得不得了。,Hôm nay nóng kinh khủng.
+不管,bùguăn,"bất kể, dù cho",不管多累，他都會運動。,"Dù mệt đến đâu, anh ấy vẫn tập thể dục."
+只好,zhĭhăo,đành phải,沒有公車了，我只好走路回家。,"Không còn xe buýt nữa, tôi đành phải đi bộ về nhà."
+或,huò,hoặc,你想喝茶或咖啡？,Bạn muốn uống trà hay cà phê?
+而且,érqiě,"hơn nữa, vả lại",這件衣服便宜而且好看。,Chiếc áo này rẻ mà lại đẹp.
+原來,yuánlái,"hóa ra, vốn dĩ",原來你就是他的姊姊。,Hóa ra bạn chính là chị của anh ấy.
+也許,yěxŭ,có lẽ,他也許明天會來。,Có lẽ ngày mai anh ấy sẽ đến.
+必須,bìxū,"phải, bắt buộc",我們必須準時到達。,Chúng ta phải đến đúng giờ.
+多麼,duōme,"biết bao, xiết bao",這裡的風景多麼美啊！,Phong cảnh nơi đây đẹp biết bao!
+這樣,zhèyàng,như thế này,你不應該這樣做。,Bạn không nên làm như thế này.
+那樣,nàyàng,"như thế đó, như vậy",別那樣說話。,Đừng nói chuyện như vậy.
+等/等等,děng/děngděng,"chờ, đợi; vân vân",請在這裡等一下。,Xin hãy đợi ở đây một chút.
+別的,biéde,cái khác,你還有別的問題嗎？,Bạn còn câu hỏi nào khác không?
+除了,chúle,"ngoại trừ, ngoài ra",除了他，大家都到了。,"Ngoại trừ anh ấy, mọi người đều đã đến."
+從來,cónglái,"từ trước đến nay, chưa bao giờ",我從來沒去過日本。,Tôi chưa bao giờ đến Nhật Bản.
+大概,dàgài,"đại khái, có lẽ",這件事大概要三天才能完成。,Việc này có lẽ phải mất ba ngày mới xong.
+還好,háihăo,"may mà, cũng tạm ổn",還好我有帶傘。,May mà tôi có mang theo ô.
+極,jí,"cực kỳ, cực",這家餐廳的菜好吃極了。,Món ăn ở nhà hàng này ngon cực kỳ.
+接著,jiēzhe,"tiếp theo, sau đó",先吃飯，接著再看電影。,"Ăn cơm trước, sau đó xem phim."
+結果,jiéguŏ,kết quả,考試結果明天公布。,Kết quả thi sẽ được công bố vào ngày mai.
+立刻,lìkè,"lập tức, ngay lập tức",他聽到消息就立刻出發了。,Anh ấy nghe tin xong thì lập tức xuất phát.
+沒想到,méixiăngdào,không ngờ,我沒想到他會來。,Tôi không ngờ anh ấy lại đến.
+其實,qíshí,thực ra,其實這件事很簡單。,Thực ra việc này rất đơn giản.
+其中,qízhōng,trong đó,這裡有五個人，其中三個是學生。,"Ở đây có năm người, trong đó ba người là học sinh."
+完全,wánquán,hoàn toàn,我完全同意你的看法。,Tôi hoàn toàn đồng ý với ý kiến của bạn.
+相當,xiāngdāng,"khá, tương đối",這個問題相當困難。,Vấn đề này khá khó.
+一切,yīqiè,"tất cả, mọi thứ",一切都會好起來的。,Mọi thứ rồi sẽ tốt đẹp thôi.
+已,yĭ,đã (rồi),時間已不早了。,Thời gian đã không còn sớm nữa.
+尤其,yóuqí,đặc biệt là,我喜歡運動，尤其是游泳。,"Tôi thích thể thao, đặc biệt là bơi lội."
+越,yuè,càng,天氣越來越冷了。,Thời tiết ngày càng lạnh hơn.
+整,zhěng,"nguyên, cả, chỉnh",他整晚都沒睡。,Anh ấy đã thức cả đêm.
+正,zhèng,"đúng, đang (chính)",我正在吃飯。,Tôi đang ăn cơm.
+只要,zhĭyào,chỉ cần,只要努力，就會成功。,Chỉ cần cố gắng thì sẽ thành công.
+最好,zuìhăo,tốt nhất,你最好早點回家。,Tốt nhất là bạn nên về nhà sớm.
+同樣,tóngyàng,"giống nhau, tương tự",我們有同樣的想法。,Chúng tôi có suy nghĩ giống nhau.
+空,kōng,"trống, rỗng",這個房間是空的。,Căn phòng này trống không.
+連,lián,"liền, ngay cả",連小孩都懂這個道理。,Ngay cả trẻ con cũng hiểu đạo lý này.
+倍,bèi,"lần, gấp (bội số)",這個城市的人口是十年前的兩倍。,Dân số thành phố này gấp đôi so với mười năm trước.
+包括,bāokuò,bao gồm,價格包括早餐。,Giá đã bao gồm bữa sáng.
+步,bù,bước,他往前走了一步。,Anh ấy bước lên phía trước một bước.
+當時,dāngshí,"lúc đó, khi đó",當時我還很年輕。,Lúc đó tôi vẫn còn rất trẻ.
+等到,děngdào,đợi đến khi,等到下雨，我們再回去。,"Đợi đến khi trời mưa, chúng ta sẽ quay về."
+煩,fán,"phiền, bực bội",這件事讓我覺得很煩。,Việc này khiến tôi cảm thấy rất phiền.
+剛好,gānghăo,"vừa hay, vừa đúng lúc",我到的時候剛好下雨。,Lúc tôi đến vừa hay trời mưa.
+或者,huòzhě,hoặc là,你可以坐公車或者坐捷運。,Bạn có thể đi xe buýt hoặc đi tàu điện ngầm.
+哇,wā,"ồ, wow (thán từ)",哇！這裡好漂亮！,Ồ! Ở đây đẹp quá!
+需,xū,cần,這件事需多加注意。,Việc này cần chú ý nhiều hơn.
+須,xū,"phải, cần phải",出國旅遊須辦護照。,Đi du lịch nước ngoài phải làm hộ chiếu.
+直接,zhíjiē,trực tiếp,你可以直接跟他說。,Bạn có thể nói trực tiếp với anh ấy.
+總,zŏng,"luôn, tổng, cuối cùng",他總是遲到。,Anh ấy luôn luôn đến muộn.
+泡,pào,"ngâm, pha (trà)",我喜歡泡茶。,Tôi thích pha trà.
+且,qiě,"hơn nữa, và (văn viết)",這個方法既簡單且有效。,Phương pháp này vừa đơn giản lại vừa hiệu quả.
+比方,bĭfāng,ví dụ,打個比方，學中文就像爬山一樣。,"Lấy một ví dụ, học tiếng Trung giống như leo núi vậy."
+比方說,bĭfāngshūo,"ví dụ như, chẳng hạn như",有些水果很貴，比方說榴槤。,"Có một số loại trái cây rất đắt, chẳng hạn như sầu riêng."
+傳,chuán,"truyền, lan truyền",這個消息很快就傳開了。,Tin tức này nhanh chóng lan truyền đi.
+另,lìng,khác (một cái khác),請你用另一個方法試試。,Xin hãy thử bằng một cách khác.
+另外,lìngwài,"ngoài ra, khác",我要一杯咖啡，另外再來一份蛋糕。,"Tôi muốn một ly cà phê, ngoài ra cho thêm một phần bánh ngọt."
+左右,zuŏyòu,"khoảng, chừng",現在大概八點左右。,Bây giờ khoảng tám giờ.
+當,dāng,"làm, khi, đương",他長大以後想當老師。,"Khi lớn lên, anh ấy muốn làm giáo viên."
+類,lèi,"loại, thể loại",我喜歡看這類的電影。,Tôi thích xem loại phim này.
+樣,yàng,"kiểu, dạng",這是什麼樣的問題？,Đây là loại vấn đề như thế nào?
